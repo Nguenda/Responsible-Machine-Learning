@@ -9,7 +9,7 @@ This portfolio provides the following content for the project:
 
 1. [](): This file is the code file for  Users can view and run the code through Jupyter Notebook.
 2. [](): This file is the code file for . Users can view and run the code through Jupyter Notebook.
-3. Five test data scrore CSV files that were extracted from Jupyter notebook file after training each explainable models.
+3. Five test data scrore CSV files that were extracted from Jupyter notebook file after training each explainable model.
 
 ## Contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
