@@ -1,5 +1,5 @@
 # RML_Group3
-Group Assignments for Responsible Machine Learning
+Group Assignment for Responsible Machine Learning
 
 The assignment statement requests training at least two explainable models while ensuring best practices such as reproducibility, validation-based early stopping, and grid search are used.
 
