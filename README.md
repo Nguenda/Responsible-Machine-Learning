@@ -7,12 +7,14 @@ For our assignment we decided to train five explanaible models which are EBM, GA
 
 This portfolio provides the following content for the project:
 
-1. [Group_3_Assignment_1.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_1.ipynb): This file is the code file for  Users can view and run the code through Jupyter Notebook.
-2. [Download test data score CSV file for EBM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_EBM.csv): This file is the test data scrore CSV file that were extracted from Jupyter notebook file after training EBM model using PiML. Users can download.
-3. [Download test data score CSV file for GAM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_GAM.csv): This file is the test data scrore CSV file that were extracted from Jupyter notebook file after training GAM model using PiML. Users can download.
-4. [Download test data score CSV file for GLM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_GLM.csv): This file is the test data scrore CSV files that were extracted from Jupyter notebook file after training GLM model using PiML. Users can download.
-5. [Download test data score CSV file for XGB](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_XGB.csv): This file is the test data scrore CSV file that were extracted from Jupyter notebook file after training XGB model using PiML. Users can download.
-6. [Download test data score CSV file for tree](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_tree.csv): This file is the test data scrore CSV files that were extracted from Jupyter notebook file after training EBM model using PiML. Users can download.
+1. []() This file was used as training data to train the models.
+2. []() This file was used as test data to retreive test data scrores.
+3.  [Group_3_Assignment_1.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_1.ipynb): This file is the code file for  Users can view and run the code through Jupyter Notebook.
+4. [Download test data score CSV file for EBM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_EBM.csv): This file is the test data scrore CSV file that were extracted from Jupyter notebook file after training EBM model using PiML. Users can download.
+5. [Download test data score CSV file for GAM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_GAM.csv): This file is the test data scrore CSV file that were extracted from Jupyter notebook file after training GAM model using PiML. Users can download.
+6. [Download test data score CSV file for GLM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_GLM.csv): This file is the test data scrore CSV files that were extracted from Jupyter notebook file after training GLM model using PiML. Users can download.
+7. [Download test data score CSV file for XGB](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_XGB.csv): This file is the test data scrore CSV file that were extracted from Jupyter notebook file after training XGB model using PiML. Users can download.
+8. [Download test data score CSV file for tree](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_tree.csv): This file is the test data scrore CSV files that were extracted from Jupyter notebook file after training EBM model using PiML. Users can download.
 
 ## Contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
