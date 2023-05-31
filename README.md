@@ -7,7 +7,7 @@ For our assignment we decided to train five explanaible models which are EBM, GA
 
 This portfolio provides the following content for the project:
 
-1. [Group_3_Assignment_1.ipynb](): This file is the code file for  Users can view and run the code through Jupyter Notebook.
+1. [Group_3_Assignment_1.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_1.ipynb): This file is the code file for  Users can view and run the code through Jupyter Notebook.
 2. [](): This file is the code file for . Users can view and run the code through Jupyter Notebook.
 3. Five test data scrore CSV files that were extracted from Jupyter notebook file after training each explainable model.
 
