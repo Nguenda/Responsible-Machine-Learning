@@ -49,7 +49,7 @@ Happy analyzing!
 **This portfolio provides the following content for assignment 2:**
 
 1. [hmda_train_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_train_preprocessed.zip): This file was used as training data to train the models. Users can download it.
-2. [Plot partial dependence for the most important features and models](https://github.com/arijlodhi/RML_Group3/blob/main/RML_assignment2.pdf): This PDF file contains images illustrating the partial dependence plots for the most important features and models.
+2. [Partial dependence plots](https://github.com/arijlodhi/RML_Group3/blob/main/RML_assignment2.pdf): This PDF file contains images illustrating the partial dependence plots for the most important features and models.
 
 
 ## Assignment 1 contributors
