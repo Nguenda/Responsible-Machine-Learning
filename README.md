@@ -18,7 +18,36 @@ This portfolio provides the following content for assignment 1:
 7. [Download test data score CSV file for XGB](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_XGB.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the XGB model using PiML. Users can download it.
 8. [Download test data score CSV file for tree](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_tree.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the tree model using PiML. Users can download it.
 
-### **Group assignment 2**
+### **Group assignment 2 - Machine Learning Model Analysis**
+
+
+The instructions below will guide you through the process.
+
+**Objective**
+
+The objective of this assignment 2 is to analyze and evaluate the ML models developed in Assignment 1. We assessed the explanatory results of the models from both a domain knowledge perspective and by comparing the differences between the models. Additionally, we calculated global feature importance using regression coefficients, Shapley values, or other reputable techniques.
+
+**Instructions**
+
+For each section below, our goal is to evaluate the explanatory results and assess their coherence with domain knowledge. Pay attention to the logical and informative differences between the models.
+
+1. **Global Feature Importance:**
+   - Utilize regression coefficients, Shapley values, or other reputable techniques to calculate global feature importance for your models.
+
+2. **Local Feature Importance:**
+   - Using similar approaches to those in Section 1, calculate local feature importance for your models at three percentiles of predicted probability.
+
+3. **Partial Dependence:**
+   - The provided template calculates partial dependence for each main effect feature of each model, enabling the analysis of feature behavior under each model.
+
+## Conclusion
+
+By following the instructions and conducting a thorough analysis of the ML models from Assignment 1, you will gain insights into their explanatory power, compare the models' differences, and calculate feature importance. This analysis will enable you to understand the behavior of the models and their performance in predicting the target variable.
+
+Happy analyzing!
+
+This portfolio provides the following content for assignment 2:
+
 
 ## Assignment 1 contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
