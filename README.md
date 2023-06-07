@@ -7,7 +7,7 @@ The **assignment 1** statement requests training at least two explainable models
 
 For our **assignment 1**, we decided to train five explainable models: EBM, GAM, GLM, XGB, and tree, using the PiML package. For reproducibility, we set the seed to SEED = 12345.
 
-This portfolio provides the following content for assignment 1:
+**This portfolio provides the following content for assignment 1:**
 
 1. [hmda_train_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_train_preprocessed.zip): This file was used as training data to train the models. Users can download it.
 2. [hmda_test_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_test_preprocessed.zip): This file was used as test data to retrieve test data scores. Users can download it.
@@ -46,7 +46,7 @@ By following the instructions and conducting a thorough analysis of the ML model
 
 Happy analyzing!
 
-This portfolio provides the following content for assignment 2:
+**This portfolio provides the following content for assignment 2:**
 
 
 ## Assignment 1 contributors
