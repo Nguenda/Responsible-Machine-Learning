@@ -25,7 +25,7 @@ The instructions below will guide you through the process.
 
 **Objective**
 
-The objective of this assignment 2 is to analyze and evaluate the ML models developed in Assignment 1. We assessed the explanatory results of the models from both a domain knowledge perspective and by comparing the differences between the models. Additionally, we calculated global feature importance using regression coefficients, Shapley values, or other reputable techniques.
+The objective of this assignment 2 is to analyze and evaluate the ML models developed in Assignment 1. We assessed the explanatory results of the models EBM, GLM, and XGB from both a domain knowledge perspective and by comparing the differences between the models. Additionally, we calculated global feature importance using regression coefficients, Shapley values, or other reputable techniques.
 
 **Instructions**
 
@@ -47,6 +47,9 @@ By following the instructions and conducting a thorough analysis of the ML model
 Happy analyzing!
 
 **This portfolio provides the following content for assignment 2:**
+
+1. [hmda_train_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_train_preprocessed.zip): This file was used as training data to train the models. Users can download it.
+2. [hmda_test_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_test_preprocessed.zip): This file was used as test data to retrieve test data scores. Users can download it. Plot partial dependence for the most important features and models
 
 
 ## Assignment 1 contributors
