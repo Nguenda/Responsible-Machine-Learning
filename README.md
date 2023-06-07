@@ -1,9 +1,9 @@
 # RML_Group3
-Group Assignments for Responsible Machine Learning
+**Group Assignments for Responsible Machine Learning**
 
-The assignment 1 statement requests training at least two explainable models while ensuring best practices such as reproducibility, validation-based early stopping, and grid search are used.
+The **assignment 1** statement requests training at least two explainable models while ensuring best practices such as reproducibility, validation-based early stopping, and grid search are used.
 
-For our assignment 1, we decided to train five explainable models: EBM, GAM, GLM, XGB, and tree, using the PiML package. For reproducibility, we set the seed to SEED = 12345.
+For our **assignment 1**, we decided to train five explainable models: EBM, GAM, GLM, XGB, and tree, using the PiML package. For reproducibility, we set the seed to SEED = 12345.
 
 This portfolio provides the following content for assignment 1:
 
