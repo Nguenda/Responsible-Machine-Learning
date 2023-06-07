@@ -1,6 +1,8 @@
 # RML_Group3
 **Group Assignments for Responsible Machine Learning**
 
+**Group assignment 1**
+
 The **assignment 1** statement requests training at least two explainable models while ensuring best practices such as reproducibility, validation-based early stopping, and grid search are used.
 
 For our **assignment 1**, we decided to train five explainable models: EBM, GAM, GLM, XGB, and tree, using the PiML package. For reproducibility, we set the seed to SEED = 12345.
@@ -15,6 +17,8 @@ This portfolio provides the following content for assignment 1:
 6. [Download test data score CSV file for GLM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_GLM.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the GLM model using PiML. Users can download it.
 7. [Download test data score CSV file for XGB](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_XGB.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the XGB model using PiML. Users can download it.
 8. [Download test data score CSV file for tree](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_tree.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the tree model using PiML. Users can download it.
+
+**Group assignment 2**
 
 ## Assignment 1 contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
