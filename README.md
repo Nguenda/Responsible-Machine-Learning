@@ -49,7 +49,7 @@ Happy analyzing!
 **This portfolio provides the following content for assignment 2:**
 
 1. [hmda_train_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_train_preprocessed.zip): This file was used as training data to train the models. Users can download it.
-2. [Team Final Report](https://github.com/Nguenda/DataDecider/blob/05e61f5b5a12ff57103f8e57ad90662d6a8823c1/Machine%20learning%201_project_BikeShare.pdf): This PDF file is a detailed report on the project, containing text and images to illustrate the content. Plot partial dependence for the most important features and models
+2. [Plot partial dependence for the most important features and models](https://github.com/Nguenda/DataDecider/blob/05e61f5b5a12ff57103f8e57ad90662d6a8823c1/Machine%20learning%201_project_BikeShare.pdf): This PDF file is a detailed report on the project, containing text and images to illustrate the content. Plot partial dependence for the most important features and models
 
 
 ## Assignment 1 contributors
