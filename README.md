@@ -1,7 +1,7 @@
 # RML_Group3
 ## **Group Assignments for Responsible Machine Learning**
 
-### **Group assignment 1 - Machine Learning Model Training**
+### [**Group assignment 1 - Machine Learning Model Training**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_1.ipynb)
 
 The **assignment 1** statement requests training at least two explainable models while ensuring best practices such as reproducibility, validation-based early stopping, and grid search are used.
 
