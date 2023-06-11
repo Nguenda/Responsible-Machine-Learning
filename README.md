@@ -18,7 +18,7 @@ For our **assignment 1**, we decided to train five explainable models: EBM, GAM,
 7. [Download test data score CSV file for XGB](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_XGB.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the XGB model using PiML. Users can download it.
 8. [Download test data score CSV file for tree](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_tree.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the tree model using PiML. Users can download it.
 
-### **Group assignment 2 - Machine Learning Model Analysis**
+### [**Group assignment 2 - Machine Learning Model Analysis**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_2.ipynb)
 
 
 The instructions below will guide you through the process.
