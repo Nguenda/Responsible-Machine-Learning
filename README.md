@@ -49,7 +49,7 @@ Happy analyzing!
 **This portfolio provides the following content for assignment 2:**
 
 1. [Group_3_Assignment_2.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_2.ipynb): This file is the code file for the project. Users can view and run the code through Jupyter Notebook.
-2. [Plots](https://github.com/arijlodhi/RML_Group3/blob/main/RML_assignment2.pdf): This PDF file contains images illustrating the partial dependence plots for the most important features and models.
+2. [Plots](https://github.com/arijlodhi/RML_Group3/blob/main/RML_assignment2.pdf): This PDF file contains images illustrating plots for the most important features and models.
 
 
 ## Assignment 1 contributors
