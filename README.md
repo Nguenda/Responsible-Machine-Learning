@@ -40,12 +40,6 @@ For each section below, our goal is to evaluate the explanatory results and asse
 3. **Partial Dependence:**
    - The provided template calculates partial dependence for each main effect feature of each model, enabling the analysis of feature behavior under each model.
 
-## Conclusion
-
-By following the instructions and conducting a thorough analysis of the ML models from Assignment 1, you will gain insights into their explanatory power, compare the models' differences, and calculate feature importance. This analysis will enable you to understand the behavior of the models and their performance in predicting the target variable.
-
-Happy analyzing!
-
 **This portfolio provides the following content for assignment 2:**
 
 1. [Group_3_Assignment_2.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_2.ipynb): This file is the code file for the project. Users can view and run the code through Jupyter Notebook.
