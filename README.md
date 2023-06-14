@@ -45,11 +45,21 @@ For each section below, our goal is to evaluate the explanatory results and asse
 1. [Group_3_Assignment_2.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_2.ipynb): This file is the code file for the project. Users can view and run the code through Jupyter Notebook.
 2. [Plots](https://github.com/arijlodhi/RML_Group3/blob/main/RML_assignment2.pdf): This PDF file contains images illustrating plots for the most important features and models.
 
+### [**Assignment 2 - Machine Learning Model Bias Testing and Remediation**]
+
+The objective of Assignment 3 is to assess bias within the model created in Assignment 1 and Assignment 2, specifically focusing on major demographic groups. Our objective is to determine any instances of unfair discrimination by calculating the Adverse Impact Ratio (AIR) for these groups. While we anticipated the presence of certain problematic biases, our aim was to maintain the AIR within the range of 0.8 to 1.25, with a threshold cutoff at 0.17. By employing remediation techniques, we aim to mitigate and eliminate any underlying bias, thereby promoting fairness within the model. By examining bias across major demographic groups, we aim to ensure that the model's predictions and decisions are not disproportionately impacting any particular group, such as based on race and gender.
+
+The calculation of the Adverse Impact Ratio (AIR) allows us to quantitatively assess the potential discrimination within the model. An AIR value outside the range of 0.8 to 1.25 suggests a significant disparity in the treatment of different demographic groups. Our objective is to identify such biases and implement remediation techniques to bring the AIR within an acceptable range.
+
+To achieve fairness, we set a threshold cutoff at 0.17. This threshold enables us to distinguish between minor biases that can be overlooked and more significant biases that require remedial action. By employing remediation techniques, such as fine-tuning the model and implementing post-processing interventions, we aim to mitigate and eliminate any bias that surpasses the established threshold.
 
 ## Assignment 1 contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
 
 ## Assignment 2 contributors
+Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Kerry McKeever**
+
+## Assignment 3 contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Kerry McKeever**
 
 ## Collaboration
