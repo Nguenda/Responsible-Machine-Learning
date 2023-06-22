@@ -59,7 +59,7 @@ To achieve fairness, we set a threshold cutoff at 0.17. This threshold enables u
 
 **This portfolio provides the following content for assignment 4:**
 
-[Model Extraction Attack: stolen decision tree model](https://github.com/arijlodhi/RML_Group3/blob/main/stolen_dt.png)
+![Model Extraction Attack: stolen decision tree model](https://github.com/arijlodhi/RML_Group3/blob/main/stolen_dt.png)
 
 [stolen_dt.gv](https://github.com/arijlodhi/RML_Group3/blob/main/stolen_dt.gv)
 
