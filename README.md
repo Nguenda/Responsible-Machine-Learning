@@ -57,8 +57,8 @@ To achieve fairness, we set a threshold cutoff at 0.17. This threshold enables u
 
 **This portfolio provides the following content for assignment 1:**
 
-[Model Extraction Attack]
-[Score file of potential adversarial examples] 
+[Model Extraction Attack: stolen decision tree model]()
+[Score file of potential adversarial examples](https://github.com/arijlodhi/RML_Group3/blob/main/stolen_dt.gv)
 Assignment 3 aims to "red-team" our best model, which means assessing its vulnerabilities and potential weaknesses.
 
 Parameter dictionary for remediated model: 
