@@ -45,7 +45,7 @@ For each section below, our goal is to evaluate the explanatory results and asse
 1. [Group_3_Assignment_2.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_2.ipynb): This file is the code file for the project. Users can view and run the code through Jupyter Notebook.
 2. [Plots](https://github.com/arijlodhi/RML_Group3/blob/main/RML_assignment2.pdf): This PDF file contains images illustrating plots for the most important features and models.
 
-### [**Assignment 3 - Machine Learning Model Bias Testing and Remediation**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_3.ipynb)
+### [**Assignment 3 - Machine Learning Model Bias Testing and Remediation**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_4.ipynb)
 
 The objective of Assignment 3 is to assess bias within the model created in Assignment 1 and Assignment 2, specifically focusing on major demographic groups. Our objective is to determine any instances of unfair discrimination by calculating the Adverse Impact Ratio (AIR) for these groups. While we anticipated the presence of certain problematic biases, our aim was to maintain the AIR within the range of 0.8 to 1.25, with a threshold cutoff at 0.17. By employing remediation techniques, we aim to identify and reduce any underlying bias, thereby promoting fairness within the model. By examining bias across major demographic groups, we aim to ensure that the model's predictions and decisions are not disproportionately impacting any particular group, such as based on race and gender.
 
@@ -53,7 +53,7 @@ The calculation of the Adverse Impact Ratio (AIR) allows us to quantitatively as
 
 To achieve fairness, we set a threshold cutoff at 0.17. This threshold enables us to distinguish between minor biases that can be overlooked and more significant biases that require remedial action. By employing remediation techniques, such as fine-tuning the model and implementing post-processing interventions, we aim to mitigate and eliminate any bias that surpasses the established threshold.
 
-### [**Assignment 4 - Machine Learning Model Analysis**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_2.ipynb)
+### [**Assignment 4 - Red - Team**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_4.ipynb)
 
 Assignment 3 aims to "red-team" our best model, which means assessing its vulnerabilities and potential weaknesses.
 
@@ -106,6 +106,9 @@ Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Kerry McKeever**
 
 ## Assignment 3 contributors
+Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Kerry McKeever**
+
+## Assignment 4 contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Kerry McKeever**
 
 ## Collaboration
