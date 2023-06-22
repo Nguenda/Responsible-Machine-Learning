@@ -67,7 +67,7 @@ To achieve fairness, we set a threshold cutoff at 0.17. This threshold enables u
 
 Assignment 3 aims to "red-team" our best model, which means assessing its vulnerabilities and potential weaknesses.
 
-Parameter dictionary for remediated model: 
+Parameter dictionary for the remediated model: 
 
 ```
 rem_params = {'max_bins': 512,
