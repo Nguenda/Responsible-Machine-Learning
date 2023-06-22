@@ -69,46 +69,29 @@ Assignment 3 aims to "red-team" our best model, which means assessing its vulner
 
 Parameter dictionary for remediated model: 
 
-
-**rem_params = {'max_bins': 512,
-
+```
+rem_params = {'max_bins': 512,
               'max_interaction_bins': 200,
-              
               'interactions': 50,
-              
               'outer_bags': 8,
-              
               'inner_bags': 0,
-              
               'learning_rate': 0.01,
-              
               'validation_size': 0.25,
-              
               'min_samples_leaf': 5,
-              
               'max_leaves': 2,
-              
               'early_stopping_rounds': 100.0,
-              
               'n_jobs': NTHREAD,
-              
               'random_state': SEED}
 
 rem_x_names = ['property_value_std',
-
                'no_intro_rate_period_std',
-               
                'loan_amount_std',
-               
                'income_std',
-               
                'conforming',
-               
                'intro_rate_period_std',
-               
                'debt_to_income_ratio_std',
-               
-               'term_360']**
+               'term_360']
+
 
 ## Assignment 1 contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
