@@ -47,6 +47,8 @@ For each section below, our goal is to evaluate the explanatory results and asse
 
 ### [**Assignment 3 - Machine Learning Model Bias Testing and Remediation**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_4.ipynb)
 
+[Remediated model score file](https://github.com/arijlodhi/RML_Group3/blob/main/ph_rem_ebm_2023_06_22_02_23_32.csv)
+
 The objective of Assignment 3 is to assess bias within the model created in Assignment 1 and Assignment 2, specifically focusing on major demographic groups. Our objective is to determine any instances of unfair discrimination by calculating the Adverse Impact Ratio (AIR) for these groups. While we anticipated the presence of certain problematic biases, our aim was to maintain the AIR within the range of 0.8 to 1.25, with a threshold cutoff at 0.17. By employing remediation techniques, we aim to identify and reduce any underlying bias, thereby promoting fairness within the model. By examining bias across major demographic groups, we aim to ensure that the model's predictions and decisions are not disproportionately impacting any particular group, such as based on race and gender.
 
 The calculation of the Adverse Impact Ratio (AIR) allows us to quantitatively assess the potential discrimination within the model. An AIR value outside the range of 0.8 to 1.25 suggests a significant disparity in the treatment of different demographic groups. Our objective is to identify such biases and implement remediation techniques to bring the AIR within an acceptable range.
@@ -67,7 +69,8 @@ Assignment 3 aims to "red-team" our best model, which means assessing its vulner
 
 Parameter dictionary for remediated model: 
 
-rem_params = {'max_bins': 512,
+
+**rem_params = {'max_bins': 512,
 
               'max_interaction_bins': 200,
               
@@ -105,7 +108,7 @@ rem_x_names = ['property_value_std',
                
                'debt_to_income_ratio_std',
                
-               'term_360']
+               'term_360']**
 
 ## Assignment 1 contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
