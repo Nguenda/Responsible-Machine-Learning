@@ -1,71 +1,92 @@
 # RML_Group3 Model Card
 ## **Final Project for Responsible Machine Learning**
 
-## Model Details: 
+### Model Details: Basic information about the model.
 
-### Contributors: 
-#### Agnes Nguenda, insert contact info
-#### Arij Ahmed Khan Lodhi, insert contact info  
-#### Kerry McKeever, kerry.mckeever@gwu.edu
+* Contributors:<br>
+**Agnes Nguenda**, insert contact info <br>
+**Arij Ahmed Khan Lodhi**, insert contact info <br> 
+**Kerry McKeever**, kerry.mckeever@gwu.edu <br>
 
-### – July 2023
-### – Model version: 1.0
-### – Model type
-### – Information about training algorithms, parameters, fairness constraints or other applied approaches, and features
-### – Paper or other resource for more information
-### – Citation details
-### – License
-### – Please send questions or comments about this model to (inset email, inset email & kerry.mckeever@gwu.edu)
+* Model date: July 2023
+* Model version: 1.0
+    * State the software used to implement your group’s best remediated model
+    * State the version of the modeling software for your group’s best remediated model
+* Model type:
+  * State the type of your group’s best remediated model
+  * State the type of your group’s best remediated model
+* Information about training algorithms, parameters, fairness constraints or other applied approaches, and features
+  * State the columns used as inputs in your group’s best remediated model
+  * State the columns used as targets in your group’s best remediated model
+  * State the hyperparameters or other settings of your group’s best remediated model
+* Paper or other resource for more information
+* Citation details
+* License
+* Where to send questions or comments about the model
 
-##Kerry 
-## Intended Use:  The intended use of this model is to evaluate metrics used in decisions pertaining to home morgage grants. Many governments as well as companies use models such as these to evaluate applicants based on previous repayment statuses, as well as demographic characteristics. We envisioned building a fair model that accuratly assesses the best candidates for these morgage loans. 
-### Use cases that were envisioned during development.
-#### ∗ Describe the business value of your group’s best remediated model
-#### ∗ Describe how your group’s best remediated model is designed to be used
-#### ∗ Describe the intended users for your group’s best remediated model
-#### ∗ State whether your group’s best remediated model can or cannot be used for any additional purposes
+### Intended Use:  Use cases that were envisioned during development.
 
-## Agnes 
-## Training Data
-#### ∗ State the source of training data
-#### ∗ State how training data was divided into training and validation data
-#### ∗ State the number of rows in training and validation data
-#### ∗ Define the meaning of all training data columns
-#### ∗ Define the meaning of all engineered columns
+* Describe the business value of your group’s best remediated model. <br>
+* Describe how your group’s best remediated model is designed to be used. <br>
+* Describe the intended users for your group’s best remediated model. <br>
+* State whether your group’s best remediated model can or cannot be used for any additional purposes. <br>
 
-## Arig
-## Evaluation Data
-### ∗ State the source of evaluation (or test) data
-### ∗ State the number of rows in evaluation (or test) data
-### ∗ State any differences in columns between training and evaluation (or test) data
+### Factors: include demographic or phenotypic groups, environmental conditions, technical attributes, or others
 
-## Kerry
-## Model Details
-### ∗ State the columns used as inputs in your group’s best remediated model
-### ∗ State the columns used as targets in your group’s best remediated model
-### ∗ State the type of your group’s best remediated model
-### ∗ State the software used to implement your group’s best remediated model
-### ∗ State the version of the modeling software for your group’s best remediated model
-### ∗ State the hyperparameters or other settings of your group’s best remediated model
+* Relevant factors: What are foreseeable salient factors for which model performance may vary, and how were these determined?<br>
+* Evaluation factors: Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why?<br>
 
-## Anges
-## Quantitative Analysis 
-### ∗ State the metrics used to evaluate your group’s best remediated model
-### ∗ State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
-### ∗ Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group’s best remediated model.
-### ∗ Address other alternative models considered
+### Metrics: Metrics should be chosen to reflect potential real- world impacts of the model.
 
-## Arig
-## Ethical Considerations
-#### ∗ Describe potential negative impacts of using your group’s best remediated model:
-#### · Consider math or software problems
-#### · Consider real-world risks: who, what, when and how?
-#### ∗ Describe potential uncertainties relating to the impacts of using your group’s best remediated model:
-#### · Consider math or software problems
-#### · Consider real-world risks: who, what, when and how?
-#### ∗ Describe any unexpected or results encountered during training
+* Model performance measures: What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance? <br>
+* Decision thresholds: If decision thresholds are used, what are they, and why were those decision thresholds chosen? <br>
+* Variation approaches:  How are the mea- surements and estimations of these metrics calculated? For ex- ample, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are ap- proximated should also be included (e.g., average of 5 runs, 10-fold cross-validation). <br>
+
+### Training Data
+
+* State the source of training data.  <br>
+* State how training data was divided into training and validation data.  <br>
+* State the number of rows in training and validation data.  <br>
+* Define the meaning of all training data columns.  <br>
+* Define the meaning of all engineered columns.  <br>
+* State details of the distribution over various factors in the training datasets.<br>
 
 
+### Evaluation Data: Details on the dataset(s) used for the quantitative analyses in the card.
+
+* Datasets: What datasets were used to evaluate the model? <br>
+* Motivation: Why were these datasets chosen? <br>
+* Preprocessing: How was the data preprocessed for evaluation (e.g., tokenization of sentences, cropping of images, any filtering such as dropping images without faces)? <br>
+* State the source of evaluation (or test) data <br>
+* State the number of rows in evaluation (or test) data <br>
+* State any differences in columns between training and evaluation (or test) data <br>
+
+
+###  Quantitative Analysis: Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. 
+
+* State the metrics used to evaluate your group’s best remediated model
+* State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
+* Unitary results: How did the model perform with respect to each factor?
+* Intersectional results: How did the model perform with respect to the intersection of evaluated factors?
+* Provide at least one plot or table from each weekly assignment for a total of at least six plots,
+that must include the global variable importance and partial dependence of your group’s best
+remediated model.
+* Address other alternative models considered
+
+
+### Ethical Considerations
+
+* Describe potential negative impacts of using your group’s best remediated model:
+* Consider math or software problems
+* Consider real-world risks: who, what, when and how?
+* Describe potential uncertainties relating to the impacts of using your group’s best remediated model:
+* Consider math or software problems
+* Consider real-world risks: who, what, when and how?
+* Describe any unexpected or results encountered during training
+
+### Caveats and Recommendations
+
+This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any further testing? Were there any relevant groups that were no represented in the evaluation dataset? Are there additional recom- mendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
 
 ## Collaboration
 During the project, we fostered a collaborative environment and utilized effective communication channels to ensure smooth collaboration. We primarily communicated through regular team meetings, both in-person and online, where we discussed project progress, shared updates, and addressed any issues or concerns. Additionally, we maintained open communication channels through instant messaging platforms and email for day-to-day interactions.
