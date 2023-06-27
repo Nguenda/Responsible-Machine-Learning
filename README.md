@@ -93,6 +93,7 @@ rem_x_names = ['property_value_std',
                'debt_to_income_ratio_std',
                'term_360']
 
+```
 
 ## Assignment 1 contributors
 Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
