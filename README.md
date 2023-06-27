@@ -1,111 +1,70 @@
-# RML_Group3
-## **Group Assignments for Responsible Machine Learning**
+# RML_Group3 Model Card
+## **Final Project for Responsible Machine Learning**
 
-### [**Assignment 1 - Machine Learning Model Training**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_1.ipynb)
+## Model Details: 
 
-The **assignment 1** statement requests training at least two explainable models while ensuring best practices such as reproducibility, validation-based early stopping, and grid search are used.
+### Contributors: 
+#### Agnes Nguenda, insert contact info
+#### Arij Ahmed Khan Lodhi, insert contact info  
+#### Kerry McKeever, kerry.mckeever@gwu.edu
 
-For our **assignment 1**, we decided to train five explainable models: EBM, GAM, GLM, XGB, and tree, using the PiML package. For reproducibility, we set the seed to SEED = 12345.
+### – July 2023
+### – Model version: 1.0
+### – Model type
+### – Information about training algorithms, parameters, fairness constraints or other applied approaches, and features
+### – Paper or other resource for more information
+### – Citation details
+### – License
+### – Where to send questions or comments about the model
 
-**This portfolio provides the following content for assignment 1:**
-
-1. [hmda_train_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_train_preprocessed.zip): This file was used as training data to train the models. Users can download it.
-2. [hmda_test_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_test_preprocessed.zip): This file was used as test data to retrieve test data scores. Users can download it.
-3.  [Group_3_Assignment_1.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_1.ipynb): This file is the code file for the project. Users can view and run the code through Jupyter Notebook.
-4. [Download test data score CSV file for EBM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_EBM.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the EBM model using PiML. Users can download it.
-5. [Download test data score CSV file for GAM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_GAM.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the GAM model using PiML. Users can download it.
-6. [Download test data score CSV file for GLM](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_GLM.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the GLM model using PiML. Users can download it.
-7. [Download test data score CSV file for XGB](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_XGB.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the XGB model using PiML. Users can download it.
-8. [Download test data score CSV file for tree](https://github.com/arijlodhi/RML_Group3/blob/main/group3_piml_tree.csv): This file is the test data score CSV file that was extracted from the Jupyter Notebook file after training the tree model using PiML. Users can download it.
-
-### [**Assignment 2 - Machine Learning Model Analysis**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_2.ipynb)
-
-
-The instructions below will guide you through the process.
-
-**Objective**
-
-The objective of this assignment 2 is to analyze and evaluate the ML models developed in Assignment 1. We assessed the explanatory results of the models EBM, GLM, and XGB from both a domain knowledge perspective and by comparing the differences between the models. Additionally, we calculated global feature importance using regression coefficients, Shapley values, or other reputable techniques.
-
-**Instructions**
-
-For each section below, our goal is to evaluate the explanatory results and assess their coherence with domain knowledge. Pay attention to the logical and informative differences between the models.
-
-1. **Global Feature Importance:**
-   - Utilize regression coefficients, Shapley values, or other reputable techniques to calculate global feature importance for your models.
-
-2. **Local Feature Importance:**
-   - Using similar approaches to those in Section 1, calculate local feature importance for your models at three percentiles of predicted probability.
-
-3. **Partial Dependence:**
-   - The provided template calculates partial dependence for each main effect feature of each model, enabling the analysis of feature behavior under each model.
-
-**This portfolio provides the following content for assignment 2:**
-
-1. [Group_3_Assignment_2.ipynb](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_2.ipynb): This file is the code file for the project. Users can view and run the code through Jupyter Notebook.
-2. [Plots](https://github.com/arijlodhi/RML_Group3/blob/main/RML_assignment2.pdf): This PDF file contains images illustrating plots for the most important features and models.
-
-### [**Assignment 3 - Machine Learning Model Bias Testing and Remediation**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_4.ipynb)
-
-[Remediated model score file](https://github.com/arijlodhi/RML_Group3/blob/main/ph_rem_ebm_2023_06_22_02_23_32.csv)
-
-The objective of Assignment 3 is to assess bias within the model created in Assignment 1 and Assignment 2, specifically focusing on major demographic groups. Our objective is to determine any instances of unfair discrimination by calculating the Adverse Impact Ratio (AIR) for these groups. While we anticipated the presence of certain problematic biases, our aim was to maintain the AIR within the range of 0.8 to 1.25, with a threshold cutoff at 0.17. By employing remediation techniques, we aim to identify and reduce any underlying bias, thereby promoting fairness within the model. By examining bias across major demographic groups, we aim to ensure that the model's predictions and decisions are not disproportionately impacting any particular group, such as based on race and gender.
-
-The calculation of the Adverse Impact Ratio (AIR) allows us to quantitatively assess the potential discrimination within the model. An AIR value outside the range of 0.8 to 1.25 suggests a significant disparity in the treatment of different demographic groups. Our objective is to identify such biases and implement remediation techniques to bring the AIR within an acceptable range.
-
-To achieve fairness, we set a threshold cutoff at 0.17. This threshold enables us to distinguish between minor biases that can be overlooked and more significant biases that require remedial action. By employing remediation techniques, such as fine-tuning the model and implementing post-processing interventions, we aim to mitigate and eliminate any bias that surpasses the established threshold.
-
-### [**Assignment 4 - Red - Team**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_4.ipynb)
-
-Assignment 3 aims to "red-team" our best model, which means assessing its vulnerabilities and potential weaknesses.
-
-**This portfolio provides the following content for assignment 4:**
-
-![Model Extraction Attack: stolen decision tree model](https://github.com/arijlodhi/RML_Group3/blob/main/stolen_dt.png)
-
-[stolen_dt.gv](https://github.com/arijlodhi/RML_Group3/blob/main/stolen_dt.gv)
-
-[stolen_dt.zip](https://github.com/arijlodhi/RML_Group3/blob/main/stolen_dt.zip)
+## Intended Use:  Use cases that were envisioned during development.
+#### ∗ Describe the business value of your group’s best remediated model
+#### ∗ Describe how your group’s best remediated model is designed to be used
+#### ∗ Describe the intended users for your group’s best remediated model
+#### ∗ State whether your group’s best remediated model can or cannot be used for any additional purposes
 
 
-Parameter dictionary for the remediated model: 
+## Training Data
+#### ∗ State the source of training data
+#### ∗ State how training data was divided into training and validation data
+#### ∗ State the number of rows in training and validation data
+#### ∗ Define the meaning of all training data columns
+#### ∗ Define the meaning of all engineered columns
 
-```
-rem_params = {'max_bins': 512,
-              'max_interaction_bins': 200,
-              'interactions': 50,
-              'outer_bags': 8,
-              'inner_bags': 0,
-              'learning_rate': 0.01,
-              'validation_size': 0.25,
-              'min_samples_leaf': 5,
-              'max_leaves': 2,
-              'early_stopping_rounds': 100.0,
-              'n_jobs': NTHREAD,
-              'random_state': SEED}
+## Evaluation Data
+### ∗ State the source of evaluation (or test) data
+### ∗ State the number of rows in evaluation (or test) data
+### ∗ State any differences in columns between training and evaluation (or test) data
 
-rem_x_names = ['property_value_std',
-               'no_intro_rate_period_std',
-               'loan_amount_std',
-               'income_std',
-               'conforming',
-               'intro_rate_period_std',
-               'debt_to_income_ratio_std',
-               'term_360']
 
-```
+## Model Details
+### ∗ State the columns used as inputs in your group’s best remediated model
+### ∗ State the columns used as targets in your group’s best remediated model
+### ∗ State the type of your group’s best remediated model
+### ∗ State the software used to implement your group’s best remediated model
+### ∗ State the version of the modeling software for your group’s best remediated model
+### ∗ State the hyperparameters or other settings of your group’s best remediated model
 
-## Assignment 1 contributors
-Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Bagya Widanagamage**
+## Quantitative Analysis 
+### ∗ State the metrics used to evaluate your group’s best remediated model
+### ∗ State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under
+Assignment 1.
+### ∗ Provide at least one plot or table from each weekly assignment for a total of at least six plots,
+that must include the global variable importance and partial dependence of your group’s best
+remediated model.
+### ∗ Address other alternative models considered
 
-## Assignment 2 contributors
-Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Kerry McKeever**
 
-## Assignment 3 contributors
-Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Kerry McKeever**
+## Ethical Considerations
+#### ∗ Describe potential negative impacts of using your group’s best remediated model:
+#### · Consider math or software problems
+#### · Consider real-world risks: who, what, when and how?
+#### ∗ Describe potential uncertainties relating to the impacts of using your group’s best remediated model:
+#### · Consider math or software problems
+#### · Consider real-world risks: who, what, when and how?
+#### ∗ Describe any unexpected or results encountered during training
 
-## Assignment 4 contributors
-Team members: **Agnes Nguenda, Arij Ahmed Khan Lodhi , Kerry McKeever**
+
 
 ## Collaboration
 During the project, we fostered a collaborative environment and utilized effective communication channels to ensure smooth collaboration. We primarily communicated through regular team meetings, both in-person and online, where we discussed project progress, shared updates, and addressed any issues or concerns. Additionally, we maintained open communication channels through instant messaging platforms and email for day-to-day interactions.
