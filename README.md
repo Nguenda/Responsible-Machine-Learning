@@ -12,9 +12,7 @@
 * Model version: 1.0
 * State the software used to implement your group’s best remediated model
 * State the version of the modeling software for your group’s best remediated model
-* Model type:
-  * State the type of your group’s best remediated model
-  * State the type of your group’s best remediated model
+* Model type: State the type of your group’s best remediated model
 * Information about training algorithms, parameters, fairness constraints or other applied approaches, and features
   * State the columns used as inputs in your group’s best remediated model
   * State the columns used as targets in your group’s best remediated model
