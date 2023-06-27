@@ -10,8 +10,8 @@
 
 * Model date: July 2023
 * Model version: 1.0
-    * State the software used to implement your group’s best remediated model
-    * State the version of the modeling software for your group’s best remediated model
+* State the software used to implement your group’s best remediated model
+* State the version of the modeling software for your group’s best remediated model
 * Model type:
   * State the type of your group’s best remediated model
   * State the type of your group’s best remediated model
@@ -26,40 +26,40 @@
 
 ### Intended Use:  Use cases that were envisioned during development.
 
-* Describe the business value of your group’s best remediated model. <br>
-* Describe how your group’s best remediated model is designed to be used. <br>
-* Describe the intended users for your group’s best remediated model. <br>
-* State whether your group’s best remediated model can or cannot be used for any additional purposes. <br>
+* Describe the business value of your group’s best remediated model. 
+* Describe how your group’s best remediated model is designed to be used. 
+* Describe the intended users for your group’s best remediated model. 
+* State whether your group’s best remediated model can or cannot be used for any additional purposes. 
 
 ### Factors: include demographic or phenotypic groups, environmental conditions, technical attributes, or others
 
-* Relevant factors: What are foreseeable salient factors for which model performance may vary, and how were these determined?<br>
-* Evaluation factors: Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why?<br>
+* Relevant factors: What are foreseeable salient factors for which model performance may vary, and how were these determined?
+* Evaluation factors: Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why?
 
 ### Metrics: Metrics should be chosen to reflect potential real- world impacts of the model.
 
-* Model performance measures: What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance? <br>
-* Decision thresholds: If decision thresholds are used, what are they, and why were those decision thresholds chosen? <br>
-* Variation approaches:  How are the mea- surements and estimations of these metrics calculated? For ex- ample, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are ap- proximated should also be included (e.g., average of 5 runs, 10-fold cross-validation). <br>
+* Model performance measures: What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance? 
+* Decision thresholds: If decision thresholds are used, what are they, and why were those decision thresholds chosen? 
+* Variation approaches:  How are the mea- surements and estimations of these metrics calculated? For ex- ample, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are ap- proximated should also be included (e.g., average of 5 runs, 10-fold cross-validation). 
 
 ### Training Data
 
-* State the source of training data.  <br>
-* State how training data was divided into training and validation data.  <br>
-* State the number of rows in training and validation data.  <br>
-* Define the meaning of all training data columns.  <br>
-* Define the meaning of all engineered columns.  <br>
-* State details of the distribution over various factors in the training datasets.<br>
+* State the source of training data.  
+* State how training data was divided into training and validation data.  
+* State the number of rows in training and validation data.  
+* Define the meaning of all training data columns.  
+* Define the meaning of all engineered columns.  
+* State details of the distribution over various factors in the training datasets.
 
 
 ### Evaluation Data: Details on the dataset(s) used for the quantitative analyses in the card.
 
-* Datasets: What datasets were used to evaluate the model? <br>
-* Motivation: Why were these datasets chosen? <br>
-* Preprocessing: How was the data preprocessed for evaluation (e.g., tokenization of sentences, cropping of images, any filtering such as dropping images without faces)? <br>
-* State the source of evaluation (or test) data <br>
-* State the number of rows in evaluation (or test) data <br>
-* State any differences in columns between training and evaluation (or test) data <br>
+* Datasets: What datasets were used to evaluate the model? 
+* Motivation: Why were these datasets chosen? 
+* Preprocessing: How was the data preprocessed for evaluation (e.g., tokenization of sentences, cropping of images, any filtering such as dropping images without faces)? 
+* State the source of evaluation (or test) data 
+* State the number of rows in evaluation (or test) data 
+* State any differences in columns between training and evaluation (or test) data
 
 
 ###  Quantitative Analysis: Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. 
