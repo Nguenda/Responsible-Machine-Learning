@@ -15,15 +15,16 @@
 ### – Paper or other resource for more information
 ### – Citation details
 ### – License
-### – Where to send questions or comments about the model
+### – Please send questions or comments about this model to (inset email, inset email & kerry.mckeever@gwu.edu)
 
+##Kerry 
 ## Intended Use:  Use cases that were envisioned during development.
 #### ∗ Describe the business value of your group’s best remediated model
 #### ∗ Describe how your group’s best remediated model is designed to be used
 #### ∗ Describe the intended users for your group’s best remediated model
 #### ∗ State whether your group’s best remediated model can or cannot be used for any additional purposes
 
-
+## Agnes 
 ## Training Data
 #### ∗ State the source of training data
 #### ∗ State how training data was divided into training and validation data
@@ -31,12 +32,13 @@
 #### ∗ Define the meaning of all training data columns
 #### ∗ Define the meaning of all engineered columns
 
+## Arig
 ## Evaluation Data
 ### ∗ State the source of evaluation (or test) data
 ### ∗ State the number of rows in evaluation (or test) data
 ### ∗ State any differences in columns between training and evaluation (or test) data
 
-
+## Kerry
 ## Model Details
 ### ∗ State the columns used as inputs in your group’s best remediated model
 ### ∗ State the columns used as targets in your group’s best remediated model
@@ -45,16 +47,14 @@
 ### ∗ State the version of the modeling software for your group’s best remediated model
 ### ∗ State the hyperparameters or other settings of your group’s best remediated model
 
+## Anges
 ## Quantitative Analysis 
 ### ∗ State the metrics used to evaluate your group’s best remediated model
-### ∗ State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under
-Assignment 1.
-### ∗ Provide at least one plot or table from each weekly assignment for a total of at least six plots,
-that must include the global variable importance and partial dependence of your group’s best
-remediated model.
+### ∗ State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
+### ∗ Provide at least one plot or table from each weekly assignment for a total of at least six plots, that must include the global variable importance and partial dependence of your group’s best remediated model.
 ### ∗ Address other alternative models considered
 
-
+## Arig
 ## Ethical Considerations
 #### ∗ Describe potential negative impacts of using your group’s best remediated model:
 #### · Consider math or software problems
