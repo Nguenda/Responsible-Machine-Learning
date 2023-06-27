@@ -18,7 +18,8 @@
 ### – Please send questions or comments about this model to (inset email, inset email & kerry.mckeever@gwu.edu)
 
 ##Kerry 
-## Intended Use:  Use cases that were envisioned during development.
+## Intended Use:  The intended use of this model is to evaluate metrics used in decisions pertaining to home morgage grants. Many governments as well as companies use models such as these to evaluate applicants based on previous repayment statuses, as well as demographic characteristics. We envisioned building a fair model that accuratly assesses the best candidates for these morgage loans. 
+### Use cases that were envisioned during development.
 #### ∗ Describe the business value of your group’s best remediated model
 #### ∗ Describe how your group’s best remediated model is designed to be used
 #### ∗ Describe the intended users for your group’s best remediated model
