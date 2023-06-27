@@ -1,0 +1,46 @@
+# RML_Group3 Model Card
+## Loan Approvals Based on Demographics 
+
+## Model Description
+### insert description of the problem here: The model analyzed in this card uses...
+
+### Input: 
+
+### Output: 
+
+### Model Architecture: 
+
+
+## Performance 
+### insert general image output of model performance here 
+
+### Overall model performance, and performance sliced by different demographic and payment characteristics, were assessed, including:
+
+### Performance measured with: 
+
+### Performance evaluated on: 
+
+## Limitations
+###The following factors may degrade the model’s performance: 
+
+## Trade-offs
+
+## Performance
+###Here you can dig into the model's performance on a selection of evaluation datasets drawn from different data sources than the training data. You can assess model performance across variables such as...
+
+### SUMMARY
+#### - 
+#### - 
+#### - 
+#### - 
+
+
+#### The model card I was looking at was the one google produced, and they had a section where you could manipulate the data itself and the ard produced an output. Not sure if we were looking to incoporate but it's definitely cool 
+
+### [**Assignment 1 - Machine Learning Model Training**](https://github.com/arijlodhi/RML_Group3/blob/main/Group_3_Assignment_1.ipynb)
+
+The **assignment 1** statement requests training at least two explainable models while ensuring best practices such as reproducibility, validation-based early stopping, and grid search are used.
+
+For our **assignment 1**, we decided to train five explainable models: EBM, GAM, GLM, XGB, and tree, using the PiML package. For reproducibility, we set the seed to SEED = 12345.
+
+**This portfolio provides the following content for assignment 1:**
