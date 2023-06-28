@@ -8,7 +8,7 @@
 **Arij Ahmed Khan Lodhi**, arijahmedkhan.lodhi@gwu.edu <br> 
 **Kerry McKeever**, kerry.mckeever@gwu.edu <br>
 
-#Arig
+#Arij
 * Model date: July 2023
 * Model version: 1.0
 * State the software used to implement your group’s best remediated model
@@ -37,7 +37,7 @@
 * Relevant factors: What are foreseeable salient factors for which model performance may vary, and how were these determined?
 * Evaluation factors: Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why?
 
-##Arig
+##Arij
 ### Metrics: Metrics should be chosen to reflect potential real- world impacts of the model.
 
 * Model performance measures: What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance? 
@@ -64,7 +64,7 @@
 * State the number of rows in evaluation (or test) data 
 * State any differences in columns between training and evaluation (or test) data
 
-##Arig
+##Arij
 ###  Quantitative Analysis: Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. 
 
 * State the metrics used to evaluate your group’s best remediated model
