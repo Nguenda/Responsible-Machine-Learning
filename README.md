@@ -5,7 +5,7 @@
 
 * Contributors:<br>
 **Agnes Nguenda**, insert contact info <br>
-**Arij Ahmed Khan Lodhi**, insert contact info <br> 
+**Arij Ahmed Khan Lodhi**, arijahmedkhan.lodhi@gwu.edu <br> 
 **Kerry McKeever**, kerry.mckeever@gwu.edu <br>
 
 #Arig
