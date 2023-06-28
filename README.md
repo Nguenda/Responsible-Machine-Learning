@@ -36,10 +36,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ##Kerry 
 ### Intended Use:  Use cases that were envisioned during development.
 
-* Describe the business value of your group’s best remediated model. 
-* Describe how your group’s best remediated model is designed to be used. 
-* Describe the intended users for your group’s best remediated model. 
-* State whether your group’s best remediated model can or cannot be used for any additional purposes. 
+* The business value of our best produced model is to ensure an unbiased and reliable method to decide whether mortgages should be granted to different housing applicants. This both benefits the consumers, who are able to purchase houses, as well as lenders, who are ensuring they are choosing patrons who will pay back their loans in a timely manner and be an add value to the company.
+
+* The best produced model (EBM) should be used when there is ample applicant information, including but not limited to: debt to income ratio, loan amount, loan to value ratio, property value, income, and demographic information. 
+
+* Our intended users for this model are people with all demographic backgrounds, as out model accounts for these differences and the biases that may be associated with them in previous loan models.  (should we add cut offs for incomes/ ages? Ie: The intended user for this model receives an income of over ___ and is over ___ in age?) 
+
+* No further uses for this model are currently known.  
 
 ##Agnes
 ### Factors: include demographic or phenotypic groups, environmental conditions, technical attributes, or others
@@ -57,9 +60,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 ##Kerry
 ### Training Data
 
-* State the source of training data.  
-* State how training data was divided into training and validation data.  
-* State the number of rows in training and validation data.  
+* The source of training data was the Home Mortgage Disclosure Act (HMDA) data.   
+* The training and test data data was provided to us already spliced into training and test data for educational instructional purposes. 
+* The provided training and test datasets contained 160338 rows and 23 columns together.  
 * Define the meaning of all training data columns.  
 * Define the meaning of all engineered columns.  
 * State details of the distribution over various factors in the training datasets.
