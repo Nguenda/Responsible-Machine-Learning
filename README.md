@@ -8,6 +8,7 @@
 **Arij Ahmed Khan Lodhi**, insert contact info <br> 
 **Kerry McKeever**, kerry.mckeever@gwu.edu <br>
 
+#Arig
 * Model date: July 2023
 * Model version: 1.0
 * State the software used to implement your group’s best remediated model
@@ -22,6 +23,7 @@
 * License
 * Where to send questions or comments about the model
 
+##Kerry 
 ### Intended Use:  Use cases that were envisioned during development.
 
 * Describe the business value of your group’s best remediated model. 
@@ -29,17 +31,20 @@
 * Describe the intended users for your group’s best remediated model. 
 * State whether your group’s best remediated model can or cannot be used for any additional purposes. 
 
+##Agnes
 ### Factors: include demographic or phenotypic groups, environmental conditions, technical attributes, or others
 
 * Relevant factors: What are foreseeable salient factors for which model performance may vary, and how were these determined?
 * Evaluation factors: Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why?
 
+##Arig
 ### Metrics: Metrics should be chosen to reflect potential real- world impacts of the model.
 
 * Model performance measures: What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance? 
 * Decision thresholds: If decision thresholds are used, what are they, and why were those decision thresholds chosen? 
 * Variation approaches:  How are the mea- surements and estimations of these metrics calculated? For ex- ample, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are ap- proximated should also be included (e.g., average of 5 runs, 10-fold cross-validation). 
 
+##Kerry
 ### Training Data
 
 * State the source of training data.  
@@ -49,7 +54,7 @@
 * Define the meaning of all engineered columns.  
 * State details of the distribution over various factors in the training datasets.
 
-
+##Agnes
 ### Evaluation Data: Details on the dataset(s) used for the quantitative analyses in the card.
 
 * Datasets: What datasets were used to evaluate the model? 
@@ -59,7 +64,7 @@
 * State the number of rows in evaluation (or test) data 
 * State any differences in columns between training and evaluation (or test) data
 
-
+##Arig
 ###  Quantitative Analysis: Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. 
 
 * State the metrics used to evaluate your group’s best remediated model
@@ -71,7 +76,7 @@ that must include the global variable importance and partial dependence of your 
 remediated model.
 * Address other alternative models considered
 
-
+## Kerry
 ### Ethical Considerations
 
 * Describe potential negative impacts of using your group’s best remediated model:
@@ -82,9 +87,11 @@ remediated model.
 * Consider real-world risks: who, what, when and how?
 * Describe any unexpected or results encountered during training
 
+##Agnes
 ### Caveats and Recommendations
 
 This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any further testing? Were there any relevant groups that were no represented in the evaluation dataset? Are there additional recom- mendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
+
 
 ## Collaboration
 During the project, we fostered a collaborative environment and utilized effective communication channels to ensure smooth collaboration. We primarily communicated through regular team meetings, both in-person and online, where we discussed project progress, shared updates, and addressed any issues or concerns. Additionally, we maintained open communication channels through instant messaging platforms and email for day-to-day interactions.
