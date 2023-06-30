@@ -116,7 +116,18 @@ By considering and addressing these factors, the mortgage prediction model can p
 ##Arij
 ### Metrics: Metrics should be chosen to reflect potential real- world impacts of the model.
 
-* Model performance measures: What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance? 
+* Model performance measures: What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance?
+  
+**Accuracy:** The proportion of correct predictions. It is a common and straightforward measure, particularly for balanced datasets.
+
+**Precision:** The ability of the model to correctly identify positive cases. It focuses on minimizing false positives.
+
+**Recall (Sensitivity or True Positive Rate):** The ability of the model to correctly capture all positive cases. It emphasizes minimizing false negatives.
+
+**F1 Score:** The harmonic mean of precision and recall, providing a balanced measure that considers both false positives and false negatives.
+
+**Area Under the ROC Curve (AUC-ROC):** The performance of the model across various thresholds, providing a measure of the trade-off between true positive rate and false positive rate.
+
 * Decision thresholds: If decision thresholds are used, what are they, and why were those decision thresholds chosen? 
 * Variation approaches:  How are the mea- surements and estimations of these metrics calculated? For ex- ample, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are ap- proximated should also be included (e.g., average of 5 runs, 10-fold cross-validation). 
 
