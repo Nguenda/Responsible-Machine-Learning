@@ -146,7 +146,21 @@ By considering and addressing these factors, the mortgage prediction model can p
 ###  Quantitative Analysis: Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. 
 
 * State the metrics used to evaluate your group’s best remediated model
+
+Accuracy: 0.9013
+Precision: 0.6032	
+Recall: 0.0159
+F1 Score: 0.0310
+Area Under the ROC Curve (AUC-ROC): 0.8200
+
 * State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
+
+ACC	0.895
+AUC	0.818
+F1	0.404
+LOGLOSS	0.273
+MSE	0.082
+
 * Unitary results: How did the model perform with respect to each factor?
 * Intersectional results: How did the model perform with respect to the intersection of evaluated factors?
 * Provide at least one plot or table from each weekly assignment for a total of at least six plots,
@@ -169,8 +183,6 @@ remediated model.
 ![partial_dependence_loan_to_value_std](https://github.com/arijlodhi/RML_Group3/assets/112020574/72476eef-92f4-42ad-81a8-72d7f0cc645f)
 
 ![partial_dependence_income_std](https://github.com/arijlodhi/RML_Group3/assets/112020574/e2349d5e-48c6-4cba-93c1-76d4a5caeb5f)
-
-
 
 * Address other alternative models considered
 
