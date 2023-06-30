@@ -152,6 +152,13 @@ By considering and addressing these factors, the mortgage prediction model can p
 * Provide at least one plot or table from each weekly assignment for a total of at least six plots,
 that must include the global variable importance and partial dependence of your group’s best
 remediated model.
+![feature_importance](https://github.com/arijlodhi/RML_Group3/assets/112020574/29211828-040a-44da-81d2-82e528444b54)
+![partial_dependence_property_value_std](https://github.com/arijlodhi/RML_Group3/assets/112020574/04cf1b7b-1150-4c11-aa23-18d2890d5b52)
+![partial_dependence_loan_to_value_std](https://github.com/arijlodhi/RML_Group3/assets/112020574/72476eef-92f4-42ad-81a8-72d7f0cc645f)
+![partial_dependence_income_std](https://github.com/arijlodhi/RML_Group3/assets/112020574/e2349d5e-48c6-4cba-93c1-76d4a5caeb5f)
+
+
+
 * Address other alternative models considered
 
 ## Kerry
