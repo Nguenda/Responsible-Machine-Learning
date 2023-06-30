@@ -163,18 +163,27 @@ MSE	0.082
 
 * Unitary results: How did the model perform with respect to each factor?
 * Intersectional results: How did the model perform with respect to the intersection of evaluated factors?
+
+  **Correlation Heatmap**
+  
+  ![correlation_heatmap](https://github.com/arijlodhi/RML_Group3/assets/112020574/c1f6ab9b-8d19-4185-a796-8cd0f0f05390)
+
+There is significant correlation observed among the variables in the dataset, highlighting interesting relationships. For instance, the **property_value_std** and **loan_amount_std** exhibit a significant positive correlation, which intuitively aligns with expectations. Additionally, it intriguing to note the strong negative correlation between **conforming** and both **loan_amount_std** and **property_value_std**.
+
+Nevertheless, there are two variables, namely **debt_to_income_ratio_std** and **income_std**, that do not show significant correlations with the majority of other variables in the dataset.
+
 * Provide at least one plot or table from each weekly assignment for a total of at least six plots,
 that must include the global variable importance and partial dependence of your group’s best
 remediated model.
 
 ![feature_importance](https://github.com/arijlodhi/RML_Group3/assets/112020574/29211828-040a-44da-81d2-82e528444b54)
-* 10th Percentile
+* **10th Percentile**
   
 ![local_feature_10thperc](https://github.com/arijlodhi/RML_Group3/assets/112020574/6e3efea0-c0e6-4934-af40-63fb7551f4b4)
-* 50th Percentile
+* **50th Percentile**
   
 ![local_feature_50thperc](https://github.com/arijlodhi/RML_Group3/assets/112020574/a4e6b0a4-644b-4141-8bda-016c0657563f)
-* 90th Percentile
+* **90th Percentile**
   
 ![local_feature_90thperc](https://github.com/arijlodhi/RML_Group3/assets/112020574/779ae350-acfc-4eae-82d6-bc7a0b71c458)
 
