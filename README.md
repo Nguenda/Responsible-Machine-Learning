@@ -48,7 +48,7 @@ Comments or questions regarding this model can be forwarded to @agnesdanielleflo
 * No further uses for this model are currently known.  
 
 ##Agnes
-### Factors: include demographic or phenotypic groups, environmental conditions, technical attributes, or others
+### Factors
 
 Analyzing the model's performance across a variety of relevant factors.
 
