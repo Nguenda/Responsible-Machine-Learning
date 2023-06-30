@@ -85,7 +85,7 @@ By considering and addressing these factors, the mortgage prediction model can p
 
 * Datasets used to evaluate the model:
   * [hmda_train_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_train_preprocessed.zip)
-  * [hmda_test_preprocessed.zip]()
+  * [hmda_test_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_test_preprocessed.zip)
 * Motivation: Why were these datasets chosen? 
 * Preprocessing: How was the data preprocessed for evaluation (e.g., tokenization of sentences, cropping of images, any filtering such as dropping images without faces)? 
 * State the source of evaluation (or test) data 
