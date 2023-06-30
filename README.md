@@ -50,12 +50,18 @@ Comments or questions regarding this model can be forwarded to @agnesdanielleflo
 ##Agnes
 ### Factors: include demographic or phenotypic groups, environmental conditions, technical attributes, or others
 
+Analyzing the model's performance across a variety of relevant factors.
+
 * Relevant factors: What are foreseeable salient factors for which model performance may vary, and how were these determined?
 
-The performance of a mortgage prediction model may vary depending on several salient factors. These factors include demographic or phenotypic groups, environmental conditions, technical attributes, and other domain-specific considerations. Additionally, the quality and relevance of the training data, the selection of appropriate features, the model's ability to handle biases and promote fairness, and its generalization to new and unseen data also play crucial roles. Thorough consideration and analysis of these factors, along with careful evaluation during development and testing, are essential to ensure accuracy, fairness, reliability, and transparency in predicting high-priced mortgages and providing actionable insights to borrowers. Addressing these factors helps create a robust and effective mortgage prediction model that increases awareness about potential financial implications while ensuring reliability and fairness. These factors can be determined through careful analysis, domain expertise, and thorough evaluation of the model during development and testing phases. It is important to consider these factors and address any limitations or biases to ensure the model's reliability and fairness in predicting high-priced mortgages.
+The performance of a mortgage prediction model may vary depending on several salient factors. These factors include demographic or phenotypic groups, environmental conditions, technical attributes, and other domain-specific considerations. Additionally, the quality and relevance of the training data, the selection of appropriate features, the model's ability to handle biases and promote fairness, and its generalization to new and unseen data also play crucial roles. Thorough consideration and analysis of these factors, along with careful evaluation during development and testing, are essential to ensure accuracy, fairness, reliability, and transparency in predicting high-priced mortgages and providing actionable insights to borrowers. Addressing these factors helps create a robust and effective mortgage prediction model that increases awareness about potential financial implications while ensuring reliability and fairness. 
 
 
 * Evaluation factors: Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why?
+
+The evaluation factors reported for the mortgage prediction model include demographic groups, feature selection, handling biases, and the model's performance on new and unseen data. These factors were chosen because they are critical in ensuring accuracy, fairness, and reliability in predicting high-priced mortgages. The evaluation takes into account demographic groups to assess potential biases and disparities. Feature selection is evaluated to ensure the model captures relevant factors affecting mortgage pricing. Handling biases is crucial to promote fairness and avoid discriminatory practices. Lastly, evaluating the model's performance on new and unseen data tests its ability to generalize and provide accurate predictions in real-world scenarios.
+
+By considering and addressing these factors, the mortgage prediction model can provide transparent and actionable insights to borrowers, increase awareness about potential financial implications, and ensure reliability and fairness in predicting high-priced mortgages.
 
 ##Arij
 ### Metrics: Metrics should be chosen to reflect potential real- world impacts of the model.
