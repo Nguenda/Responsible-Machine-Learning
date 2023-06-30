@@ -1,10 +1,13 @@
 # RML_Group3 Model Card
 ## **Final Project for Responsible Machine Learning**
 
+
 ### Model Details: Basic information about the model.
 
+The model's purpose is to identify mortgages that have significantly higher APRs compared to the market estimate. The model aims to provide transparency by flagging mortgages that may impose higher costs on borrowers. By predicting high-priced mortgages, the model can contribute to increasing awareness and understanding of the potential financial implications for borrowers.
+
 * Contributors:<br>
-**Agnes Nguenda**, insert contact info <br>
+**Agnes Nguenda**, agnesdanielleflore.nguenda@gwmail.gwu.edu <br>
 **Arij Ahmed Khan Lodhi**, arijahmedkhan.lodhi@gwu.edu <br> 
 **Kerry McKeever**, kerry.mckeever@gwu.edu <br>
 
