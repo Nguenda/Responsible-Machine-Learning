@@ -106,7 +106,6 @@ Analyzing the model's performance across a variety of relevant factors.
 
 The performance of a mortgage prediction model may vary depending on several salient factors. These factors include demographic or phenotypic groups, environmental conditions, technical attributes, and other domain-specific considerations. Additionally, the quality and relevance of the training data, the selection of appropriate features, the model's ability to handle biases and promote fairness, and its generalization to new and unseen data also play crucial roles. Thorough consideration and analysis of these factors, along with careful evaluation during development and testing, are essential to ensure accuracy, fairness, reliability, and transparency in predicting high-priced mortgages and providing actionable insights to borrowers. Addressing these factors helps create a robust and effective mortgage prediction model that increases awareness about potential financial implications while ensuring reliability and fairness. 
 
-
 * Evaluation factors: Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why?
 
 The evaluation factors reported for the mortgage prediction model include demographic groups, feature selection, handling biases, and the model's performance on new and unseen data. These factors were chosen because they are critical in ensuring accuracy, fairness, and reliability in predicting high-priced mortgages. The evaluation takes into account demographic groups to assess potential biases and disparities. Feature selection is evaluated to ensure the model captures relevant factors affecting mortgage pricing. Handling biases is crucial to promote fairness and avoid discriminatory practices. Lastly, evaluating the model's performance on new and unseen data tests its ability to generalize and provide accurate predictions in real-world scenarios.
@@ -129,8 +128,6 @@ By considering and addressing these factors, the mortgage prediction model can p
 **Area Under the ROC Curve (AUC-ROC):** The performance of the model across various thresholds, providing a measure of the trade-off between true positive rate and false positive rate.
 
 * Decision thresholds: If decision thresholds are used, what are they, and why were those decision thresholds chosen?
-
-The AUC (Area Under the ROC Curve) was used as a metric to assess how well the model is performing. AUC is a good indicator of performance because it is robust to class imbalance, threshold-agnostic, evaluates model ranking, measures performance across different operating points, and allows for easy model comparison.
 
 * Variation approaches:  How are the mea- surements and estimations of these metrics calculated? For ex- ample, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are ap- proximated should also be included (e.g., average of 5 runs, 10-fold cross-validation). 
 
