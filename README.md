@@ -216,8 +216,8 @@ remediated model.
 ## Kerry
 ### Ethical Considerations
 
-* Describe potential negative impacts of using your group’s best remediated model:
-* Consider math or software problems
+* Despite our best remediation efforts, there is still a possibility of disparate impact on certain groups based on protected attributes such as race, gender, or ethnicity. We have to address the possibility that the model unintentionally perpetuates historical biases or systemic discrimination present in the training data. Additionally, there may be limitations of the data itself, such as quality and lack of representation. This can impact the performance and fairness of the model. If the training data is incomplete, biased, or lacks diversity, the model's predictions may not accurately generalize to new cases. Lastly, the remediated model may still produce inaccurate predictions for certain cases. False positives or false negatives can occur, leading to wrong decisions and potentially causing harm to individuals. 
+* There are many potential math or software problems that could affect our model. Data imbalance, for example, occurs when there is a significant difference in the number of samples between different classes or outcomes, such as approved and rejected loans. Imbalanced data can lead to biased model training and poor performance on the minority class. Additionally, the process of choosing relevant and informative features is crucial for building an effective mortgage model. However, identifying the right set of features and transforming them appropriately can be challenging.
 * Consider real-world risks: who, what, when and how?
 * Describe potential uncertainties relating to the impacts of using your group’s best remediated model:
 * Consider math or software problems
