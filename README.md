@@ -139,23 +139,26 @@ By considering and addressing these factors, the mortgage prediction model can p
 * The provided training and test datasets contained 160338 rows and 23 columns together.
   
 * Define the meaning of all training data columns.
-* Row_id: unique number assigned to that person
+*high priced: Binary target, whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is
+150 basis points (1.5%) or more above a survey-based estimate of similar mortgages.
+*conforming: Binary numeric input, whether the mortgage conforms to normal standards (1), or whether the
+loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc.
+*debt to income ratio std: Numeric input, standardized debt-to-income ratio for mortgage applicants.
+*debt to income ratio missing: Binary numeric input, missing marker (1) for debt to income ratio std.
+*income std: Numeric input, standardized income for mortgage applicants.
+*loan amount std: Numeric input, standardized amount of the mortgage for applicants.
+*intro rate period std: Numeric input, standardized introductory rate period for mortgage applicants.
+*loan to value ratio std: Numeric input, ratio of the mortgage size to the value of the property for mortgage
+applicants.
+*no intro rate period std: Binary numeric input, whether or not a mortgage does not include an introductory
+rate period.
+*property value std: Numeric input, value of the mortgaged property.
+*term 360: Binary numeric input, whether the mortgage is a standard 360 month mortgage (1) or a different
+type of mortgage (0).
+* Row_id: unique number assigned to that applicant
 * Black / Asian/ White/ Amind/ Hipac/ Hispanic/ Non hispanic/ Male/ Female: demographic identifiers  
 * Agegte62: age, greater than 62
 * Agelt62: age, less than than 62
-* Term_360: ?
-* Conforming: identifier for conforming loan, CFs are mortgages that meet Fannie Mae and Freddie Mac guidelines
-* Debt_to_income_ratio_missing: 
-*Loan_amount_std: the standard deviation of the loan amount
-*Loan_to_value_ratio_std: the standard deviation of the loan to value ratio
-*No_intro_rate_period_std: ? 
-*Intro_rate_period_std: ?
-*Property_value_std: the standard deviation of the property value
-*Income_std: the standard deviation of the income
-*Debt_to_income_ratio_std: the standard deviation of the debt to income ratio
-*High_priced: ?
-
-* Define the meaning of all engineered columns.
   
 * State details of the distribution over various factors in the training datasets.
 
