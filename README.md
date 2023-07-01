@@ -157,7 +157,7 @@ type of mortgage (0).
 These datasets (both train and test) are real US mortgage data made available through the home mortgage disclosure act (HMDA). 
 * **Motivation:** Why were these datasets chosen?
 The datasets provide actual mortgage loan information, reflecting real lending practices and patterns. They are highly relevant for assessing ML models in mortgage tasks. The HMDA dataset covers a significant portion of US mortgage activities, offering a representative sample from diverse financial institutions. It enables accurate model evaluations, ensures transparency, accountability, and identifies biases in lending practices. Evaluating models on this dataset detects unintended biases and serves as a benchmark in the industry. Compliance with regulatory requirements is ensured by evaluating models on the HMDA dataset, used by financial institutions and lenders.
-* **Preprocessing:** How was the data preprocessed for evaluation? 
+* **Preprocessing:** 
 The data (both train and test) was preprocessed to remove any obvious data quality problems.
 * **State the number of rows in evaluation (or test) data** <br>
   Train data rows = 112253, columns = 23 <br>
