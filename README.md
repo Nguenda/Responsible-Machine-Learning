@@ -228,6 +228,9 @@ remediated model.
 ### Caveats and Recommendations
 
 This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any further testing? Were there any relevant groups that were no represented in the evaluation dataset? Are there additional recom- mendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
+* The results don't suggest any further testing. However, bias testing was not performed for the groups 'agegte62', 'agelt62', 'hispanic', and 'non_hispanic'. Therefore, we recommend to perform additional bias testing specifically targeting these groups to ensure fairness and identify any potential issues. <br>
+Based on the absence of bias testing for certain groups, it is advisable to exercise caution when using the model for decision-making or implementing it in real-world scenarios. Without complete information on bias and fairness, the model's predictions and outcomes may be influenced by hidden disparities or unintended biases. Consider further investigating and refining the model to ensure fairness and mitigate any potential biases identified through bias testing.<br>
+An ideal evaluation dataset should be representative of the population and cover a wide range of demographic groups, including 'agegte62', 'agelt62', 'hispanic', 'non_hispanic', and other relevant categories. It should include a sufficient number of samples from each group to enable accurate and reliable assessments of model performance. Additionally, the dataset should incorporate ground truth labels and detailed information about the loans.
 
 
 ## Collaboration
