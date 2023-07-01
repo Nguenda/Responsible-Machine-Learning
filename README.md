@@ -171,19 +171,19 @@ Column not appearing in the test dataset: 'high_priced'.
 
 * The metrics used to evaluate your group’s best remediated model
 
-**Accuracy:** 0.9013
-**Precision:** 0.6032	
-**Recall:** 0.0159
-**F1 Score:** 0.0310
-**Area Under the ROC Curve (AUC-ROC):** 0.8200
+    * **Accuracy:** 0.9013
+    * **Precision:** 0.6032	
+    * **Recall:** 0.0159
+    * **F1 Score:** 0.0310
+    * **Area Under the ROC Curve (AUC-ROC):** 0.8200
 
 * The values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
 
-**ACC**	0.895
-**AUC**	0.818
-**F1**	0.404
-**LOGLOSS**	0.273
-**MSE**	0.082
+    * **ACC**	0.895
+    * **AUC**	0.818
+    * **F1**	0.404
+    * **LOGLOSS**	0.273
+    * **MSE**	0.082
 
 * Unitary results: How did the model perform with respect to each factor?
 * Intersectional results: How did the model perform with respect to the intersection of evaluated factors?
