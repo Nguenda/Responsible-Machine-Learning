@@ -93,7 +93,7 @@ Comments or questions regarding this model can be forwarded to @agnesdanielleflo
 
 * The best produced model (EBM) should be used when there is ample applicant information, including but not limited to: debt to income ratio, loan amount, loan to value ratio, property value, income, and demographic information. 
 
-* Our intended users for this model are people with all demographic backgrounds, as out model accounts for these differences and the biases that may be associated with them in previous loan models.  (should we add cut offs for incomes/ ages? Ie: The intended user for this model receives an income of over ___ and is over ___ in age?) 
+* Our intended users for this model are people with all demographic backgrounds, as out model accounts for these differences and the biases that may be associated with them in previous loan models.
 
 * No further uses for this model are currently known.  
 
