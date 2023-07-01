@@ -29,7 +29,7 @@ The model's purpose is to identify mortgages that have significantly higher APRs
   Adverse impact ratio for Females vs. Males: 0.957
 
 * **State the columns used as inputs in your group’s best remediated model**
-    
+ ```   
     ['term_360',
  'conforming',
  'debt_to_income_ratio_missing',
@@ -40,13 +40,13 @@ The model's purpose is to identify mortgages that have significantly higher APRs
  'property_value_std',
  'income_std',
  'debt_to_income_ratio_std']
-
+```
 * **State the columns used as targets in your group’s best remediated model**
-    
+```    
     'high_priced'
-    
+```    
 * **State the hyperparameters or other settings of your group’s best remediated model**
-    
+```    
     ['max_bins': 512,
 'max_interaction_bins': 200,
 'interactions': 50,
@@ -59,7 +59,7 @@ The model's purpose is to identify mortgages that have significantly higher APRs
 'early_stopping_rounds': 100.0,
 'n_jobs': 4,
 'random_state': 12345]
-
+```
 * **MIT License**
 
 Copyright (c) 2023
