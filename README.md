@@ -88,20 +88,20 @@ Comments or questions regarding this model can be forwarded to @agnesdanielleflo
 
 Analyzing the model's performance across a variety of relevant factors.
 
-* Relevant factors: What are foreseeable salient factors for which model performance may vary, and how were these determined?
+* **Relevant factors:** 
 
 The performance of a mortgage prediction model may vary depending on several salient factors. These factors include demographic or phenotypic groups, environmental conditions, technical attributes, and other domain-specific considerations. Additionally, the quality and relevance of the training data, the selection of appropriate features, the model's ability to handle biases and promote fairness, and its generalization to new and unseen data also play crucial roles. Thorough consideration and analysis of these factors, along with careful evaluation during development and testing, are essential to ensure accuracy, fairness, reliability, and transparency in predicting high-priced mortgages and providing actionable insights to borrowers. Addressing these factors helps create a robust and effective mortgage prediction model that increases awareness about potential financial implications while ensuring reliability and fairness. 
 
-* Evaluation factors: Which factors are being reported, and why were these chosen? If the relevant factors and evaluation factors are different, why?
+* **Evaluation factors:** 
 
 The evaluation factors reported for the mortgage prediction model include demographic groups, feature selection, handling biases, and the model's performance on new and unseen data. These factors were chosen because they are critical in ensuring accuracy, fairness, and reliability in predicting high-priced mortgages. The evaluation takes into account demographic groups to assess potential biases and disparities. Feature selection is evaluated to ensure the model captures relevant factors affecting mortgage pricing. Handling biases is crucial to promote fairness and avoid discriminatory practices. Lastly, evaluating the model's performance on new and unseen data tests its ability to generalize and provide accurate predictions in real-world scenarios.
 
 By considering and addressing these factors, the mortgage prediction model can provide transparent and actionable insights to borrowers, increase awareness about potential financial implications, and ensure reliability and fairness in predicting high-priced mortgages.
 
-##Arij
+
 ### Metrics: Metrics should be chosen to reflect potential real- world impacts of the model.
 
-* Model performance measures: What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance?
+* **Model performance measures:** What measures of model perfor- mance are being reported, and why were they selected over other measures of model performance?
   
 **Accuracy:** The proportion of correct predictions. It is a common and straightforward measure, particularly for balanced datasets.
 
@@ -147,26 +147,26 @@ type of mortgage (0).
   
 * State details of the distribution over various factors in the training datasets.
 
-##Agnes
+
 ### Evaluation Data: Details on the dataset(s) used for the quantitative analyses in the card.
 
-* Datasets used to evaluate the model:
+* **Datasets used to evaluate the model:**
   * [hmda_train_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_train_preprocessed.zip)
   * [hmda_test_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_test_preprocessed.zip)
-* Source of evaluation (or test) data
+* **Source of evaluation (or test) data**
 These datasets (both train and test) are real US mortgage data made available through the home mortgage disclosure act (HMDA). 
-* Motivation: Why were these datasets chosen?
+* **Motivation:** Why were these datasets chosen?
 The datasets provide actual mortgage loan information, reflecting real lending practices and patterns. They are highly relevant for assessing ML models in mortgage tasks. The HMDA dataset covers a significant portion of US mortgage activities, offering a representative sample from diverse financial institutions. It enables accurate model evaluations, ensures transparency, accountability, and identifies biases in lending practices. Evaluating models on this dataset detects unintended biases and serves as a benchmark in the industry. Compliance with regulatory requirements is ensured by evaluating models on the HMDA dataset, used by financial institutions and lenders.
-* Preprocessing: How was the data preprocessed for evaluation 
+* **Preprocessing:** How was the data preprocessed for evaluation? 
 The data (both train and test) was preprocessed to remove any obvious data quality problems.
 * State the number of rows in evaluation (or test) data <br>
-Train data rows = 112253, columns = 23 <br>
-Validation data rows = 48085, columns = 23 <br>
-Test data rows = 19831, columns = 22 <br>
+  Train data rows = 112253, columns = 23 <br>
+  Validation data rows = 48085, columns = 23 <br>
+  Test data rows = 19831, columns = 22 <br>
 * State any differences in columns between training and evaluation (or test) data <br>
 Column not appearing in the test dataset: 'high_priced'.
 
-##Arij
+
 ###  Quantitative Analysis: Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. 
 
 * State the metrics used to evaluate your group’s best remediated model
