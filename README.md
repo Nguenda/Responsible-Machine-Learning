@@ -86,7 +86,7 @@ Comments or questions regarding this model can be forwarded to @agnesdanielleflo
 
 ### Factors
 
-Analyzing the model's performance across a variety of relevant factors.
+The model's performance was analyzed across a variety of relevant factors.
 
 * **Relevant factors:** 
 
