@@ -136,24 +136,27 @@ By considering and addressing these factors, the mortgage prediction model can p
 
 * The source of training data was the Home Mortgage Disclosure Act (HMDA) data.   
 * The training and test data data was provided to us already spliced into training and test data for educational instructional purposes. 
-* The provided training and test datasets contained 160338 rows and 23 columns together.  
+* The provided training and test datasets contained 160338 rows and 23 columns together.
+  
 * Define the meaning of all training data columns.
 * Row_id: unique number assigned to that person
-Black / asian/ white/ amind/ hipac/ hispanic/ non hispanic/ male/ female: demographic identifiers  
-Agegte62: 
-Agelt62:: 
-Term_360: 
-Conforming: 
-Debt_to_income_ratio_missing: 
-Loan_amount_std: the standard deviation of the loan amount
-Loan_to_value_ratio_std: the standard deviation of the loan to value ratio
-No_intro_rate_period_std: 
-Intro_rate_period_std: 
-Property_value_std: the standard deviation of the property value
-Income_std: the standard deviation of the income
-Debt_to_income_ratio_std: the standard deviation of the debt to income ratio
-High_priced: 
-* Define the meaning of all engineered columns.  
+* Black / Asian/ White/ Amind/ Hipac/ Hispanic/ Non hispanic/ Male/ Female: demographic identifiers  
+* Agegte62: age, greater than 62
+* Agelt62: age, less than than 62
+* Term_360: ?
+* Conforming: identifier for conforming loan, CFs are mortgages that meet Fannie Mae and Freddie Mac guidelines
+* Debt_to_income_ratio_missing: 
+*Loan_amount_std: the standard deviation of the loan amount
+*Loan_to_value_ratio_std: the standard deviation of the loan to value ratio
+*No_intro_rate_period_std: ? 
+*Intro_rate_period_std: ?
+*Property_value_std: the standard deviation of the property value
+*Income_std: the standard deviation of the income
+*Debt_to_income_ratio_std: the standard deviation of the debt to income ratio
+*High_priced: ?
+
+* Define the meaning of all engineered columns.
+  
 * State details of the distribution over various factors in the training datasets.
 
 ##Agnes
