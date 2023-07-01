@@ -6,29 +6,29 @@
 
 The model's purpose is to identify mortgages that have significantly higher APRs compared to the market estimate. The model aims to provide transparency by flagging mortgages that may impose higher costs on borrowers. By predicting high-priced mortgages, the model can contribute to increasing awareness and understanding of the potential financial implications for borrowers.
 
-* Contributors:<br>
+* **Contributors:** <br>
 **Agnes Nguenda**, agnesdanielleflore.nguenda@gwmail.gwu.edu <br>
 **Arij Ahmed Khan Lodhi**, arijahmedkhan.lodhi@gwu.edu <br> 
 **Kerry McKeever**, kerry.mckeever@gwu.edu <br>
 
 
-* Model date: **July 1, 2023**
-* Model version: **1.0**
-* Ssoftware used to implement our best remediated model: **Google Colab, Python** 
-* Version of the modeling software: **3.10.12**
-* Best remediated model type:**Explainable Boosting Machine** 
-* Information about training algorithms, parameters, fairness constraints or other applied approaches, and features:
+* **Model date:** July 1, 2023
+* **Model version:** 1.0
+* **Softwares used to implement our best remediated model:** Google Colab, Python 
+* **Software version:** **3.10.12**
+* **Best remediated model type:** Explainable Boosting Machine 
+* **Information about training algorithms, parameters, fairness constraints or other applied approaches, and features:**
 
-  **An EBM model was trained using the following parameters initially:
-  ExplainableBoostingClassifier(interactions=16,outer_bags=4,max_interaction_bins=64,max_bins=512, early_stopping_rounds = 100,       learning_rate = 0.05, min_samples_leaf = 10, random_state=12345)**
+  An EBM model was trained using the following parameters initially:
+  ExplainableBoostingClassifier(interactions=16,outer_bags=4,max_interaction_bins=64,max_bins=512, early_stopping_rounds = 100,       learning_rate = 0.05, min_samples_leaf = 10, random_state=12345)
 
-  **There were some underlying biases in the data which were reduced using debiasing techniques and AIR for the variables was maintained between the range 0.8 to 1.25:**
+  There were some underlying biases in the data which were reduced using debiasing techniques and AIR for the variables was maintained between the range 0.8 to 1.25:
 
-  **Adverse impact ratio for Asian people vs. White people: 1.160
+  Adverse impact ratio for Asian people vs. White people: 1.160
   Adverse impact ratio for Black people vs. White people: 0.804
-  Adverse impact ratio for Females vs. Males: 0.957**
+  Adverse impact ratio for Females vs. Males: 0.957
 
-* State the columns used as inputs in your group’s best remediated model
+* **State the columns used as inputs in your group’s best remediated model**
     
     ['term_360',
  'conforming',
@@ -41,11 +41,11 @@ The model's purpose is to identify mortgages that have significantly higher APRs
  'income_std',
  'debt_to_income_ratio_std']
 
-* State the columns used as targets in your group’s best remediated model
+* **State the columns used as targets in your group’s best remediated model**
     
     'high_priced'
     
-* State the hyperparameters or other settings of your group’s best remediated model
+* **State the hyperparameters or other settings of your group’s best remediated model**
     
     ['max_bins': 512,
 'max_interaction_bins': 200,
@@ -64,7 +64,7 @@ The model's purpose is to identify mortgages that have significantly higher APRs
   
 * Citation details
 
-* MIT License
+* **MIT License**
 
 Copyright (c) 2023
 
@@ -76,7 +76,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Comments or questions regarding this model can be forwarded to @agnesdanielleflore.nguenda@gwmail.gwu.edu, arijahmedkhan.lodhi@gwu.edu, and @kerry.mckeever@gwu.edu. 
 
-##Kerry 
+
 ### Intended Use:  Use cases that were envisioned during development.
 
 * The business value of our best produced model is to ensure an unbiased and reliable method to decide whether mortgages should be granted to different housing applicants. This both benefits the consumers, who are able to purchase houses, as well as lenders, who are ensuring they are choosing patrons who will pay back their loans in a timely manner and be an add value to the company.
@@ -117,39 +117,37 @@ By considering and addressing these factors, the mortgage prediction model can p
 
 **Area Under the ROC Curve (AUC-ROC):** The performance of the model across various thresholds, providing a measure of the trade-off between true positive rate and false positive rate.
 
-* Decision thresholds: If decision thresholds are used, what are they, and why were those decision thresholds chosen?
+* **Decision thresholds:** If decision thresholds are used, what are they, and why were those decision thresholds chosen?
 
-* Variation approaches:  How are the mea- surements and estimations of these metrics calculated? For ex- ample, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are ap- proximated should also be included (e.g., average of 5 runs, 10-fold cross-validation). 
+* **Variation approaches:**  How are the mea- surements and estimations of these metrics calculated? For ex- ample, this may include standard deviation, variance, confidence intervals, or KL divergence. Details of how these values are ap- proximated should also be included (e.g., average of 5 runs, 10-fold cross-validation). 
 
-##Kerry
+
 ### Training Data
 
 * The source of training data was the Home Mortgage Disclosure Act (HMDA) data.   
 * The training and test data data was provided to us already spliced into training and test data for educational instructional purposes. 
-* The provided training and test datasets contained 160338 rows and 23 columns together.
-  
-***Define the meaning of all training data columns***
-  
-* high priced: Binary target, whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is
+* The provided training and test datasets contained 160338 rows and 23 columns together. 
+* Relevant training data columns
+  * high_priced: Binary target, whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is
 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages.
-* conforming: Binary numeric input, whether the mortgage conforms to normal standards (1), or whether the
+  * conforming: Binary numeric input, whether the mortgage conforms to normal standards (1), or whether the
 loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc.
-* debt to income ratio std: Numeric input, standardized debt-to-income ratio for mortgage applicants.
-* debt to income ratio missing: Binary numeric input, missing marker (1) for debt to income ratio std.
-* income std: Numeric input, standardized income for mortgage applicants.
-* loan amount std: Numeric input, standardized amount of the mortgage for applicants.
-* intro rate period std: Numeric input, standardized introductory rate period for mortgage applicants.
-* loan to value ratio std: Numeric input, ratio of the mortgage size to the value of the property for mortgage
+  * debt_to_income_ratio_std: Numeric input, standardized debt-to-income ratio for mortgage applicants.
+  * debt_to_income_ratio_missing: Binary numeric input, missing marker (1) for debt to income ratio std.
+  * income_std: Numeric input, standardized income for mortgage applicants.
+  * loan_amount_std: Numeric input, standardized amount of the mortgage for applicants.
+  * intro_rate_period_std: Numeric input, standardized introductory rate period for mortgage applicants.
+  * loan_to_value_ratio_std: Numeric input, ratio of the mortgage size to the value of the property for mortgage
 applicants.
-* no intro rate period std: Binary numeric input, whether or not a mortgage does not include an introductory
+  * no_intro_rate_period_std: Binary numeric input, whether or not a mortgage does not include an introductory
 rate period.
-* property value std: Numeric input, value of the mortgaged property.
-* term 360: Binary numeric input, whether the mortgage is a standard 360 month mortgage (1) or a different
+  * property_value_std: Numeric input, value of the mortgaged property.
+  * term 360: Binary numeric input, whether the mortgage is a standard 360 month mortgage (1) or a different
 type of mortgage (0).
-* Row_id: unique number assigned to that applicant
-* Black / Asian/ White/ Amind/ Hipac/ Hispanic/ Non hispanic/ Male/ Female: demographic identifiers  
-* Agegte62: age, greater than 62
-* Agelt62: age, less than than 62
+  * Row_id: unique number assigned to that applicant
+  * Black / Asian/ White/ Amind/ Hipac/ Hispanic/ Non hispanic/ Male/ Female: demographic identifiers  
+  * Agegte62: age, greater than 62
+  * Agelt62: age, less than than 62
   
 * State details of the distribution over various factors in the training datasets.
 
@@ -159,7 +157,7 @@ type of mortgage (0).
 * Datasets used to evaluate the model:
   * [hmda_train_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_train_preprocessed.zip)
   * [hmda_test_preprocessed.zip](https://github.com/arijlodhi/RML_Group3/blob/main/hmda_test_preprocessed.zip)
-* State the source of evaluation (or test) data
+* Source of evaluation (or test) data
 These datasets (both train and test) are real US mortgage data made available through the home mortgage disclosure act (HMDA). 
 * Motivation: Why were these datasets chosen?
 The datasets provide actual mortgage loan information, reflecting real lending practices and patterns. They are highly relevant for assessing ML models in mortgage tasks. The HMDA dataset covers a significant portion of US mortgage activities, offering a representative sample from diverse financial institutions. It enables accurate model evaluations, ensures transparency, accountability, and identifies biases in lending practices. Evaluating models on this dataset detects unintended biases and serves as a benchmark in the industry. Compliance with regulatory requirements is ensured by evaluating models on the HMDA dataset, used by financial institutions and lenders.
