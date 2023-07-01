@@ -159,17 +159,17 @@ These datasets (both train and test) are real US mortgage data made available th
 The datasets provide actual mortgage loan information, reflecting real lending practices and patterns. They are highly relevant for assessing ML models in mortgage tasks. The HMDA dataset covers a significant portion of US mortgage activities, offering a representative sample from diverse financial institutions. It enables accurate model evaluations, ensures transparency, accountability, and identifies biases in lending practices. Evaluating models on this dataset detects unintended biases and serves as a benchmark in the industry. Compliance with regulatory requirements is ensured by evaluating models on the HMDA dataset, used by financial institutions and lenders.
 * **Preprocessing:** How was the data preprocessed for evaluation? 
 The data (both train and test) was preprocessed to remove any obvious data quality problems.
-* State the number of rows in evaluation (or test) data <br>
+* **State the number of rows in evaluation (or test) data** <br>
   Train data rows = 112253, columns = 23 <br>
   Validation data rows = 48085, columns = 23 <br>
   Test data rows = 19831, columns = 22 <br>
-* State any differences in columns between training and evaluation (or test) data <br>
+* **Differences in columns between training and evaluation (or test) data** <br>
 Column not appearing in the test dataset: 'high_priced'.
 
 
 ###  Quantitative Analysis: Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. 
 
-* State the metrics used to evaluate your group’s best remediated model
+* The metrics used to evaluate your group’s best remediated model
 
 **Accuracy:** 0.9013
 **Precision:** 0.6032	
@@ -177,7 +177,7 @@ Column not appearing in the test dataset: 'high_priced'.
 **F1 Score:** 0.0310
 **Area Under the ROC Curve (AUC-ROC):** 0.8200
 
-* State the values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
+* The values of the metrics for training, validation, and evaluation (or test) data – evaluation (or test) metrics come from the most recent class full evaluation results, link under Assignment 1.
 
 **ACC**	0.895
 **AUC**	0.818
