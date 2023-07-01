@@ -150,13 +150,15 @@ By considering and addressing these factors, the mortgage prediction model can p
 * State the source of evaluation (or test) data
 These datasets (both train and test) are real US mortgage data made available through the home mortgage disclosure act (HMDA). 
 * Motivation: Why were these datasets chosen?
-These datasets consist of actual information on mortgage loan applications, approvals, denials, and related details, reflecting the true lending practices and patterns in the mortgage market. Due to this authenticity, they are highly relevant for assessing ML models designed for mortgage-related tasks. The HMDA dataset encompasses a significant portion of mortgage lending activities in the US, featuring data from diverse financial institutions, thus offering a representative sample of the mortgage market. This comprehensive coverage enables more accurate evaluations of ML models. Being collected and publicly accessible under federal law, the HMDA dataset ensures transparency, accountability, and the identification of potential biases or discriminatory trends in mortgage lending practices. Evaluating ML models on this dataset allows for assessing fair lending practices and detecting unintended biases within the models. Moreover, as the HMDA dataset is widely utilized in the mortgage industry and academic research, it serves as a benchmark for evaluating ML models. Researchers and practitioners can compare their model's performance against established studies and industry standards, facilitating assessments of effectiveness and potential enhancements. Given that financial institutions and mortgage lenders are legally obligated to collect and report data under the HMDA, ML models developed for mortgage-related tasks must comply with regulatory requirements. Evaluating these models on the HMDA dataset ensures alignment with regulatory guidelines and promotes compliance in the industry.
+The datasets provide actual mortgage loan information, reflecting real lending practices and patterns. They are highly relevant for assessing ML models in mortgage tasks. The HMDA dataset covers a significant portion of US mortgage activities, offering a representative sample from diverse financial institutions. It enables accurate model evaluations, ensures transparency, accountability, and identifies biases in lending practices. Evaluating models on this dataset detects unintended biases and serves as a benchmark in the industry. Compliance with regulatory requirements is ensured by evaluating models on the HMDA dataset, used by financial institutions and lenders.
 * Preprocessing: How was the data preprocessed for evaluation 
 The data (both train and test) was preprocessed to remove any obvious data quality problems.
 * State the number of rows in evaluation (or test) data
 Train data rows = 112253, columns = 23
 Validation data rows = 48085, columns = 23
+Test data rows = 19831, columns = 22
 * State any differences in columns between training and evaluation (or test) data
+Column not appearing in the test dataset: 'high_priced'.
 
 ##Arij
 ###  Quantitative Analysis: Quantitative analyses should provide the results of evaluating the model according to the chosen metrics, providing confidence interval values when possible. 
