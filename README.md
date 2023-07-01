@@ -60,10 +60,6 @@ The model's purpose is to identify mortgages that have significantly higher APRs
 'n_jobs': 4,
 'random_state': 12345]
 
-* Paper or other resource for more information
-  
-* Citation details
-
 * **MIT License**
 
 Copyright (c) 2023
@@ -87,7 +83,7 @@ Comments or questions regarding this model can be forwarded to @agnesdanielleflo
 
 * No further uses for this model are currently known.  
 
-##Agnes
+
 ### Factors
 
 Analyzing the model's performance across a variety of relevant factors.
