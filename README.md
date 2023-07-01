@@ -138,7 +138,7 @@ By considering and addressing these factors, the mortgage prediction model can p
 * The training and test data data was provided to us already spliced into training and test data for educational instructional purposes. 
 * The provided training and test datasets contained 160338 rows and 23 columns together.
   
-* Define the meaning of all training data columns.
+## Define the meaning of all training data columns.
   
 * high priced: Binary target, whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is
 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages.
