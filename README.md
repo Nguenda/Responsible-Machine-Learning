@@ -14,19 +14,19 @@ The model's purpose is to identify mortgages that have significantly higher APRs
 
 * Model date: **July 1, 2023**
 * Model version: **1.0**
-* State the software used to implement your group’s best remediated model: **Google Colab, Python** 
+* Ssoftware used to implement our best remediated model: **Google Colab, Python** 
 * Version of the modeling software: **3.10.12**
 * Best remediated model type:**Explainable Boosting Machine** 
 * Information about training algorithms, parameters, fairness constraints or other applied approaches, and features:
 
-  An EBM model was trained using the following parameters initially:
-  ExplainableBoostingClassifier(interactions=16,outer_bags=4,max_interaction_bins=64,max_bins=512, early_stopping_rounds = 100,       learning_rate = 0.05, min_samples_leaf = 10, random_state=12345)
+  **An EBM model was trained using the following parameters initially:
+  ExplainableBoostingClassifier(interactions=16,outer_bags=4,max_interaction_bins=64,max_bins=512, early_stopping_rounds = 100,       learning_rate = 0.05, min_samples_leaf = 10, random_state=12345)**
 
-  There were some underlying biases in the data which were reduced using debiasing techniques and AIR for the variables was maintained between the range 0.8 to 1.25:
+  **There were some underlying biases in the data which were reduced using debiasing techniques and AIR for the variables was maintained between the range 0.8 to 1.25:**
 
-  Adverse impact ratio for Asian people vs. White people: 1.160
+  **Adverse impact ratio for Asian people vs. White people: 1.160
   Adverse impact ratio for Black people vs. White people: 0.804
-  Adverse impact ratio for Females vs. Males: 0.957
+  Adverse impact ratio for Females vs. Males: 0.957**
 
 * State the columns used as inputs in your group’s best remediated model
     
