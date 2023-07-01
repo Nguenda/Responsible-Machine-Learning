@@ -11,26 +11,16 @@ The model's purpose is to identify mortgages that have significantly higher APRs
 **Arij Ahmed Khan Lodhi**, arijahmedkhan.lodhi@gwu.edu <br> 
 **Kerry McKeever**, kerry.mckeever@gwu.edu <br>
 
-#Arij
-* Model date: July 1, 2023
-  
-* Model version: 1.0
-  
-* State the software used to implement your group’s best remediated model
 
-  Google Colab, Python
-  
-* State the version of the modeling software for your group’s best remediated model
-
-  3.10.12
-* Model type: State the type of your group’s best remediated model
-
-  Explainable Boosting Machine
-  
-* Information about training algorithms, parameters, fairness constraints or other applied approaches, and features
+* Model date: **July 1, 2023**
+* Model version: **1.0**
+* State the software used to implement your group’s best remediated model: **Google Colab, Python** 
+* Version of the modeling software: **3.10.12**
+* Best remediated model type:**Explainable Boosting Machine** 
+* Information about training algorithms, parameters, fairness constraints or other applied approaches, and features:
 
   An EBM model was trained using the following parameters initially:
-  ExplainableBoostingClassifier(interactions=16,outer_bags=4,max_interaction_bins=64,max_bins=512, early_stopping_rounds = 100, learning_rate = 0.05, min_samples_leaf = 10, random_state=12345)
+  ExplainableBoostingClassifier(interactions=16,outer_bags=4,max_interaction_bins=64,max_bins=512, early_stopping_rounds = 100,       learning_rate = 0.05, min_samples_leaf = 10, random_state=12345)
 
   There were some underlying biases in the data which were reduced using debiasing techniques and AIR for the variables was maintained between the range 0.8 to 1.25:
 
