@@ -124,26 +124,26 @@ By considering and addressing these factors, the mortgage prediction model can p
 * The training and test data data was provided to us already spliced into training and test data for educational instructional purposes. 
 * The provided training and test datasets contained 160338 rows and 23 columns together. 
 * Relevant training data columns
-  * high_priced: Binary target, whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is
+  * **high_priced:** Binary target, whether (1) or not (0) the annual percentage rate (APR) charged for a mortgage is
 150 basis points (1.5%) or more above a survey-based estimate of similar mortgages.
-  * conforming: Binary numeric input, whether the mortgage conforms to normal standards (1), or whether the
+  * **conforming:** Binary numeric input, whether the mortgage conforms to normal standards (1), or whether the
 loan is different (0), e.g., jumbo, HELOC, reverse mortgage, etc.
-  * debt_to_income_ratio_std: Numeric input, standardized debt-to-income ratio for mortgage applicants.
-  * debt_to_income_ratio_missing: Binary numeric input, missing marker (1) for debt to income ratio std.
-  * income_std: Numeric input, standardized income for mortgage applicants.
-  * loan_amount_std: Numeric input, standardized amount of the mortgage for applicants.
-  * intro_rate_period_std: Numeric input, standardized introductory rate period for mortgage applicants.
-  * loan_to_value_ratio_std: Numeric input, ratio of the mortgage size to the value of the property for mortgage
+  * **debt_to_income_ratio_std:** Numeric input, standardized debt-to-income ratio for mortgage applicants.
+  * **debt_to_income_ratio_missing:** Binary numeric input, missing marker (1) for debt to income ratio std.
+  * **income_std:** Numeric input, standardized income for mortgage applicants.
+  * **loan_amount_std:** Numeric input, standardized amount of the mortgage for applicants.
+  * **intro_rate_period_std:** Numeric input, standardized introductory rate period for mortgage applicants.
+  * **loan_to_value_ratio_std:** Numeric input, ratio of the mortgage size to the value of the property for mortgage
 applicants.
-  * no_intro_rate_period_std: Binary numeric input, whether or not a mortgage does not include an introductory
+  * **no_intro_rate_period_std:** Binary numeric input, whether or not a mortgage does not include an introductory
 rate period.
-  * property_value_std: Numeric input, value of the mortgaged property.
-  * term 360: Binary numeric input, whether the mortgage is a standard 360 month mortgage (1) or a different
+  * **property_value_std:** Numeric input, value of the mortgaged property.
+  * **term 360:** Binary numeric input, whether the mortgage is a standard 360 month mortgage (1) or a different
 type of mortgage (0).
-  * Row_id: unique number assigned to that applicant
-  * Black / Asian/ White/ Amind/ Hipac/ Hispanic/ Non hispanic/ Male/ Female: demographic identifiers  
-  * Agegte62: age, greater than 62
-  * Agelt62: age, less than than 62
+  * **Row_id:** unique number assigned to that applicant
+  * **Black / Asian/ White/ Amind/ Hipac/ Hispanic/ Non hispanic/ Male/ Female:** demographic identifiers  
+  * **Agegte62:** age, greater than 62
+  * **Agelt62:** age, less than than 62
   
 * State details of the distribution over various factors in the training datasets.
 
@@ -219,7 +219,6 @@ remediated model.
 
 * Address other alternative models considered
 
-## Kerry
 ### Ethical Considerations
 
 * Despite our best remediation efforts, there is still a possibility of disparate impact on certain groups based on protected attributes such as race, gender, or ethnicity. We have to address the possibility that the model unintentionally perpetuates historical biases or systemic discrimination present in the training data. Additionally, there may be limitations of the data itself, such as quality and lack of representation. This can impact the performance and fairness of the model. If the training data is incomplete, biased, or lacks diversity, the model's predictions may not accurately generalize to new cases. Lastly, the remediated model may still produce inaccurate predictions for certain cases. False positives or false negatives can occur, leading to wrong decisions and potentially causing harm to individuals. 
@@ -227,10 +226,9 @@ remediated model.
 * There are many real world risks involved when deploying a machine learning model. With a biased or incorrect model, those affected include, but are not limited to: mortgage applicants, lenders, underwriters and regulators. The decisions that are made present another risk, as deserving parties may be denied loans, receive incorrect rates,  assess creditworthiness, or allocate resources. The timing of the decisions presents another peril. For instance, if the model makes real-time decisions, the risks may be different compared to a batch-based decision-making process. Real-time decisions can have immediate impacts, while batch decisions may have cumulative effects over time. How decisions are made includes understanding the inner workings of the model and its decision-making process. The risks here include the choice of algorithms, feature selection, model training, and validation procedures. Further, the risks of data privacy and security cannot be overlooked, as the danger of data breaches, unauthorized access, or misuse of personal data are present. 
 * Describe any unexpected or results encountered during training
 
-##Agnes
 ### Caveats and Recommendations
 
-This section should list additional concerns that were not covered in the previous sections. For example, did the results suggest any further testing? Were there any relevant groups that were no represented in the evaluation dataset? Are there additional recom- mendations for model use? What are the ideal characteristics of an evaluation dataset for this model?
+This section should list additional concerns that were not covered in the previous sections. <br>
 * The results don't suggest any further testing. However, bias testing was not performed for the groups 'agegte62', 'agelt62', 'hispanic', and 'non_hispanic'. Therefore, we recommend to perform additional bias testing specifically targeting these groups to ensure fairness and identify any potential issues. 
 * Based on the absence of bias testing for certain groups, it is advisable to exercise caution when using the model for decision-making or implementing it in real-world scenarios. Without complete information on bias and fairness, the model's predictions and outcomes may be influenced by hidden disparities or unintended biases. Consider further investigating and refining the model to ensure fairness and mitigate any potential biases identified through bias testing.
 * An ideal evaluation dataset should be representative of the population and cover a wide range of demographic groups, including 'agegte62', 'agelt62', 'hispanic', 'non_hispanic', and other relevant categories. It should include a sufficient number of samples from each group to enable accurate and reliable assessments of model performance. Additionally, the dataset should incorporate ground truth labels and detailed information about the loans.
