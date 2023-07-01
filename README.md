@@ -154,9 +154,9 @@ The datasets provide actual mortgage loan information, reflecting real lending p
 * Preprocessing: How was the data preprocessed for evaluation 
 The data (both train and test) was preprocessed to remove any obvious data quality problems.
 * State the number of rows in evaluation (or test) data
-Train data rows = 112253, columns = 23
-Validation data rows = 48085, columns = 23
-Test data rows = 19831, columns = 22
+Train data rows = 112253, columns = 23 <br>
+Validation data rows = 48085, columns = 23 <br>
+Test data rows = 19831, columns = 22 <br>
 * State any differences in columns between training and evaluation (or test) data
 Column not appearing in the test dataset: 'high_priced'.
 
