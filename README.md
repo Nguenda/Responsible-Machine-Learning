@@ -187,9 +187,7 @@ Column not appearing in the test dataset: 'high_priced'.
     * **MSE**	0.082
 
 * Unitary results: How did the model perform with respect to each factor?
-![unitary1](https://github.com/arijlodhi/RML_Group3/assets/112020574/4035e5e3-30dc-4d90-80ce-51f798ee3a87)
-![unitary2](https://github.com/arijlodhi/RML_Group3/assets/112020574/8f087e7f-0abf-4cf3-9cc3-50f98a1a1df0)
-![unitary3](https://github.com/arijlodhi/RML_Group3/assets/112020574/cde2c21a-4f37-493c-88c1-35937442d0c5)
+![unitary1](https://github.com/arijlodhi/RML_Group3/blob/main/simulated%20data.png)
 
 * Intersectional results: How did the model perform with respect to the intersection of evaluated factors?
 
