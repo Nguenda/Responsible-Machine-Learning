@@ -144,7 +144,8 @@ type of mortgage (0).
   * **Black / Asian/ White/ Amind/ Hipac/ Hispanic/ Non hispanic/ Male/ Female:** demographic identifiers  
   * **Agegte62:** age, greater than 62
   * **Agelt62:** age, less than than 62
-  
+
+*State details of the distribution over various factors in the training datasets.
 ![image](https://github.com/arijlodhi/RML_Group3/assets/111535170/65979138-a6d4-4a70-b7cb-bc240efeece9)
 
 
