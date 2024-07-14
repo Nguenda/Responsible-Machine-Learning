@@ -66,7 +66,7 @@ Column not appearing in the test dataset: 'high_priced'.
 The model's purpose is to identify mortgages that have significantly higher APRs compared to the market estimate. The model aims to provide transparency by flagging mortgages that may impose higher costs on borrowers. By predicting high-priced mortgages, the model can contribute to increasing awareness and understanding of the potential financial implications for borrowers.
 
 * **Contributors:** <br>
-**Agnes Nguenda**, agnesdanielleflore.nguenda@gwmail.gwu.edu <br>
+**Agnes Nguenda**
 * **Model date:** July 1, 2023
 * **Model version:** 1.0
 * **Softwares used to implement our best remediated model:** Google Colab, Python, PiML, InterpretML
